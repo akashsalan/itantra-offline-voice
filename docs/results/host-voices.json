@@ -1,0 +1,78 @@
+﻿{
+    "kind":  "windows_host_cli_smoke_only",
+    "measuredAtUtc":  "2026-09-12T08:45:58.9381344Z",
+    "androidTested":  false,
+    "intelligibilityAssessed":  false,
+    "voices":  [
+                   {
+                       "voice":  "bn",
+                       "text":  "123",
+                       "sampleRate":  22050,
+                       "pcmBytes":  47838,
+                       "nonzeroPcm":  true
+                   },
+                   {
+                       "voice":  "en",
+                       "text":  "123",
+                       "sampleRate":  22050,
+                       "pcmBytes":  75698,
+                       "nonzeroPcm":  true
+                   },
+                   {
+                       "voice":  "gu",
+                       "text":  "123",
+                       "sampleRate":  22050,
+                       "pcmBytes":  53706,
+                       "nonzeroPcm":  true
+                   },
+                   {
+                       "voice":  "hi",
+                       "text":  "123",
+                       "sampleRate":  22050,
+                       "pcmBytes":  49596,
+                       "nonzeroPcm":  true
+                   },
+                   {
+                       "voice":  "kn",
+                       "text":  "123",
+                       "sampleRate":  22050,
+                       "pcmBytes":  63004,
+                       "nonzeroPcm":  true
+                   },
+                   {
+                       "voice":  "ml",
+                       "text":  "123",
+                       "sampleRate":  22050,
+                       "pcmBytes":  63292,
+                       "nonzeroPcm":  true
+                   },
+                   {
+                       "voice":  "mr",
+                       "text":  "123",
+                       "sampleRate":  22050,
+                       "pcmBytes":  54666,
+                       "nonzeroPcm":  true
+                   },
+                   {
+                       "voice":  "or",
+                       "text":  "123",
+                       "sampleRate":  22050,
+                       "pcmBytes":  62594,
+                       "nonzeroPcm":  true
+                   },
+                   {
+                       "voice":  "ta",
+                       "text":  "123",
+                       "sampleRate":  22050,
+                       "pcmBytes":  68768,
+                       "nonzeroPcm":  true
+                   },
+                   {
+                       "voice":  "te",
+                       "text":  "123",
+                       "sampleRate":  22050,
+                       "pcmBytes":  71610,
+                       "nonzeroPcm":  true
+                   }
+               ]
+}

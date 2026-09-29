@@ -1,0 +1,35 @@
+{
+  "kind": "android_fixed_human_fixture_not_microphone_WER",
+  "device": "RMX1801",
+  "sdk": 29,
+  "pack_id": "asr.parakeet.en.110m.ctc.int8",
+  "fixture_sha256": "6bc58a4efdf20daac252b6b1502632601a71efe0308f6757dc1eda34891a7e4f",
+  "threads": 2,
+  "provider": "cpu",
+  "model_load_ms": 3233.690624,
+  "model_bytes_including_license": 131680781,
+  "rows": [
+    {
+      "iteration": 0,
+      "text": "After early nightfall the yellow lamps would light up here and there the squalid quarter of the brothels",
+      "audio_seconds": 6.625,
+      "inference_ms": 1153.063698,
+      "rtf": 0.17404735064150942,
+      "pss_after_decode_kb_not_peak": 313740
+    },
+    {
+      "iteration": 1,
+      "text": "After early nightfall the yellow lamps would light up here and there the squalid quarter of the brothels",
+      "audio_seconds": 6.625,
+      "inference_ms": 1129.588385,
+      "rtf": 0.17050390716981131,
+      "pss_after_decode_kb_not_peak": 313740
+    }
+  ],
+  "digital_silence_text": "",
+  "digital_silence_blank": true,
+  "fifteen_second_buffer_limit_passed": true,
+  "import_progress_passed": true,
+  "speech_decode_reset_passed": true,
+  "production_pointer_unchanged": true
+}

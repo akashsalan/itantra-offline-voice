@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "releaseStatus": "Awaiting approved HTTPS hosting; no models have been uploaded.",
+  "offlineAlternatives": [
+    {
+      "language": "en",
+      "packId": "asr.moonshine.en.tiny.streaming.2026-08-21.quantized",
+      "displayName": "English — low-end devices",
+      "file": "en-low-end.itpack",
+      "bytes": 45256959,
+      "installedBytes": 45247839,
+      "sha256": "f08bb49604dc6c4948ea648f17d07e92810f9eb31ccbc9367ce0e64314036979",
+      "url": null
+    }
+  ],
+  "entries": [
+    {
+      "language": "bn",
+      "packId": "asr.indicconformer.bn.int8",
+      "file": "bn.itpack",
+      "bytes": 197694179,
+      "installedBytes": 197663183,
+      "sha256": "7c792756c11f1afbfc77f2a314a0591421a87b5aa7c68d786088547771d7d035",
+      "url": null
+    },
+    {
+      "language": "en",
+      "packId": "asr.moonshine.en.small.streaming.2026-08-21.quantized",
+      "file": "en.itpack",
+      "bytes": 142339040,
+      "installedBytes": 142315154,
+      "sha256": "ba1fbd4182baa05fdfeb90c8d0707114afaf533364684e236539368b53d7d8ac",
+      "url": null
+    },
+    {
+      "language": "gu",
+      "packId": "asr.indicconformer.gu.int8",
+      "file": "gu.itpack",
+      "bytes": 197694063,
+      "installedBytes": 197663066,
+      "sha256": "2b18e19ead3cee2454894f48230bfb76f6c9ad658b1b128b84f2f27b7051c8dd",
+      "url": null
+    },
+    {
+      "language": "hi",
+      "packId": "asr.indicconformer.hi.int8",
+      "file": "hi.itpack",
+      "bytes": 197694194,
+      "installedBytes": 197663198,
+      "sha256": "000fec352d780bc1765dad360ba985a0534cd6baf446b2c844ddb7d94947cb06",
+      "url": null
+    },
+    {
+      "language": "kn",
+      "packId": "asr.indicconformer.kn.int8",
+      "file": "kn.itpack",
+      "bytes": 197694330,
+      "installedBytes": 197663333,
+      "sha256": "709deb40291085f8bacf86c9fd337e697105b35d5f4ab2c9161024a4b874ed82",
+      "url": null
+    },
+    {
+      "language": "ml",
+      "packId": "asr.indicconformer.ml.int8",
+      "file": "ml.itpack",
+      "bytes": 197694154,
+      "installedBytes": 197663160,
+      "sha256": "51f7dc55089735fad42e537bb4aee17fbf73ce1968408bc81e2d7312e0477e5c",
+      "url": null
+    },
+    {
+      "language": "mr",
+      "packId": "asr.indicconformer.mr.int8",
+      "file": "mr.itpack",
+      "bytes": 197694195,
+      "installedBytes": 197663198,
+      "sha256": "d06b1dbb128ea123b3ee08b36cde4cfc7eb6db36ba484b309b6a28807a8574c9",
+      "url": null
+    },
+    {
+      "language": "or",
+      "packId": "asr.indicconformer.or.ctc.experimental.v1",
+      "file": "or-experimental.itpack",
+      "bytes": 197692569,
+      "installedBytes": 197661424,
+      "sha256": "ae56de0ec9a9830ae1c9fa865229886111a7480803f6ffc71c5fae503d82d45b",
+      "url": null
+    },
+    {
+      "language": "ta",
+      "packId": "asr.indicconformer.ta.int8",
+      "file": "ta.itpack",
+      "bytes": 197694115,
+      "installedBytes": 197663118,
+      "sha256": "a0429d226f7267f87f70d8b57dd26e94d6b0f0d9dd848145284ec371374ffe1d",
+      "url": null
+    },
+    {
+      "language": "te",
+      "packId": "asr.indicconformer.te.int8",
+      "file": "te.itpack",
+      "bytes": 197694294,
+      "installedBytes": 197663298,
+      "sha256": "309ddf58a555577e537539ed2c720e7967b37ece8f03f8dcf12c939fabcbdeb9",
+      "url": null
+    }
+  ]
+}

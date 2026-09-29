@@ -1,0 +1,135 @@
+﻿{
+    "measuredAtUtc":  "2026-09-12T08:40:25.4960669Z",
+    "kind":  "host_artifact_integrity_only",
+    "artifacts":  [
+                      {
+                          "id":  "asr.bn.indicconformer.int8",
+                          "path":  "models/source/asr/bn/model.int8.onnx",
+                          "bytes":  197595578,
+                          "sha256":  "e9120a534f69df065314be468bf15579f1b92a4cd8c07ad119b80b69244718a8",
+                          "matchesLock":  true,
+                          "validationStatus":  "downloaded_unbenchmarked"
+                      },
+                      {
+                          "id":  "asr.en.zipformer20m.encoder.int8",
+                          "path":  "models/source/asr/en/encoder-epoch-99-avg-1.int8.onnx",
+                          "bytes":  42845182,
+                          "sha256":  "3810755ce7c3ab26b42a8bcf39d191308fa27fb0f53358823ba46141d03b7eb3",
+                          "matchesLock":  true,
+                          "validationStatus":  "downloaded_unbenchmarked"
+                      },
+                      {
+                          "id":  "asr.en.zipformer20m.decoder.fp32",
+                          "path":  "models/source/asr/en/decoder-epoch-99-avg-1.onnx",
+                          "bytes":  2092272,
+                          "sha256":  "45a7f940ecfb53d89fa270ad11b88b961e53a317203eb24b1c8e95ed208b0f30",
+                          "matchesLock":  true,
+                          "validationStatus":  "downloaded_unbenchmarked"
+                      },
+                      {
+                          "id":  "asr.en.zipformer20m.joiner.int8",
+                          "path":  "models/source/asr/en/joiner-epoch-99-avg-1.int8.onnx",
+                          "bytes":  259572,
+                          "sha256":  "e085d73b593cf9b0707f370dbd656d58327d3fe36d80d849202ef81df02cb01e",
+                          "matchesLock":  true,
+                          "validationStatus":  "downloaded_unbenchmarked"
+                      },
+                      {
+                          "id":  "asr.en.zipformer20m.tokens",
+                          "path":  "models/source/asr/en/tokens.txt",
+                          "bytes":  5048,
+                          "sha256":  "49e3c2646595fd907228b3c6787069658f67b17377c60aeb8619c4551b2316fb",
+                          "matchesLock":  true,
+                          "validationStatus":  "downloaded_unbenchmarked"
+                      },
+                      {
+                          "id":  "asr.gu.indicconformer.int8",
+                          "path":  "models/source/asr/gu/model.int8.onnx",
+                          "bytes":  197595461,
+                          "sha256":  "822ed7f0b809bbd479275bf91c913d05564b88c0d082bbcba2f37999b88cb598",
+                          "matchesLock":  true,
+                          "validationStatus":  "downloaded_unbenchmarked"
+                      },
+                      {
+                          "id":  "asr.hi.indicconformer.int8",
+                          "path":  "models/source/asr/hi/model.int8.onnx",
+                          "bytes":  197595593,
+                          "sha256":  "915c71e04dd7e5378a4057fdebb252b3a587188e4e99db6d7ce0909ad5ad05fa",
+                          "matchesLock":  true,
+                          "validationStatus":  "downloaded_unbenchmarked"
+                      },
+                      {
+                          "id":  "asr.kn.indicconformer.int8",
+                          "path":  "models/source/asr/kn/model.int8.onnx",
+                          "bytes":  197595728,
+                          "sha256":  "b226ce7e4ea35b0dd66991964bd00e011b6b14b0fcdf4f7d1cccd777781c94dc",
+                          "matchesLock":  true,
+                          "validationStatus":  "downloaded_unbenchmarked"
+                      },
+                      {
+                          "id":  "asr.ml.indicconformer.int8",
+                          "path":  "models/source/asr/ml/model.int8.onnx",
+                          "bytes":  197595555,
+                          "sha256":  "dcbdfa9f773db910508b40b703cb76c5974e8d4c6f123ea81265b40853c3f0c2",
+                          "matchesLock":  true,
+                          "validationStatus":  "downloaded_unbenchmarked"
+                      },
+                      {
+                          "id":  "asr.mr.indicconformer.int8",
+                          "path":  "models/source/asr/mr/model.int8.onnx",
+                          "bytes":  197595593,
+                          "sha256":  "1ea81e55c4b9b12624c9d02a5b9c1b6f7c871c78a55ff52d333f81cb5136eaf2",
+                          "matchesLock":  true,
+                          "validationStatus":  "downloaded_unbenchmarked"
+                      },
+                      {
+                          "id":  "asr.or.indicconformer.source.nemo",
+                          "path":  "models/source/asr/or/source-model.nemo",
+                          "bytes":  523192320,
+                          "sha256":  "e30cfee192fbdc37b7c0b221c76788b439d445e64368cd0447172f7d77deb616",
+                          "matchesLock":  true,
+                          "validationStatus":  "source_only_conversion_required"
+                      },
+                      {
+                          "id":  "asr.ta.indicconformer.int8",
+                          "path":  "models/source/asr/ta/model.int8.onnx",
+                          "bytes":  197595513,
+                          "sha256":  "abb7b59d706b8d27ba3fb5e5e3db7671c9e1a09bf7bc6122de507c60030e65fb",
+                          "matchesLock":  true,
+                          "validationStatus":  "downloaded_unbenchmarked"
+                      },
+                      {
+                          "id":  "asr.te.indicconformer.int8",
+                          "path":  "models/source/asr/te/model.int8.onnx",
+                          "bytes":  197595693,
+                          "sha256":  "710f176e33080f1be84b4f38bb5f33be3f522dcf4f191bf4d5cc89f7a85924f3",
+                          "matchesLock":  true,
+                          "validationStatus":  "downloaded_unbenchmarked"
+                      },
+                      {
+                          "id":  "asr.indicconformer.shared_tokens",
+                          "path":  "models/source/asr/indic-tokens.txt",
+                          "bytes":  67605,
+                          "sha256":  "ee60967630213f31951817ac8b402b92ec18cce80718a24a49b388e56672dfb2",
+                          "matchesLock":  true,
+                          "validationStatus":  "downloaded_unbenchmarked"
+                      },
+                      {
+                          "id":  "vad.silero.int8",
+                          "path":  "models/source/vad/silero_vad.int8.onnx",
+                          "bytes":  212860,
+                          "sha256":  "c36d490aff5ab924ca6c7aeec4d8f6bd3d22db6fa17611b9c5b17eae58ac3a20",
+                          "matchesLock":  true,
+                          "validationStatus":  "downloaded_unbenchmarked"
+                      },
+                      {
+                          "id":  "runtime.sherpa_onnx.android.1.13.8",
+                          "path":  "third_party/sherpa-onnx/sherpa-onnx-1.13.8.aar",
+                          "bytes":  50129134,
+                          "sha256":  "633c24321e06b1fe79feafa03ea16cbc0f8a286641e2da3559bac91bdb13bd96",
+                          "matchesLock":  true,
+                          "validationStatus":  "checksum_matches_publisher"
+                      }
+                  ],
+    "androidInferenceTested":  false
+}

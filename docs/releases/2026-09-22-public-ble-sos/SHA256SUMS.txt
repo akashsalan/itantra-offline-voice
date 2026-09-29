@@ -1,0 +1,2 @@
+981fb40455ef3ce12f70018e3e1aadb0d72867591e5cb5e0f3b4cd46ce27dd81  APKs/app-base-debug.apk
+085bc2898f731cf446a91570fabd5be1882424d2df4b93254c06e12fbd0ed3c9  APKs/app-demoPreloaded-debug.apk

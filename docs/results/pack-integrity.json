@@ -1,0 +1,86 @@
+﻿{
+    "kind":  "host_zip_integrity_not_android_import_test",
+    "measuredAtUtc":  "2026-09-13T06:03:33.0372339Z",
+    "packs":  [
+                  {
+                      "name":  "en.itpack",
+                      "packId":  "asr.parakeet.en.110m.ctc.int8",
+                      "bytes":  131702085,
+                      "sha256":  "e9532d0a392fbd63b086e47bbd6bdc1cc69c5f213b4ba0ffb4d8526201435933",
+                      "modelFiles":  3,
+                      "matchesLock":  true
+                  },
+                  {
+                      "name":  "hi.itpack",
+                      "packId":  "asr.indicconformer.hi.int8",
+                      "bytes":  197694194,
+                      "sha256":  "000fec352d780bc1765dad360ba985a0534cd6baf446b2c844ddb7d94947cb06",
+                      "modelFiles":  2,
+                      "matchesLock":  true
+                  },
+                  {
+                      "name":  "bn.itpack",
+                      "packId":  "asr.indicconformer.bn.int8",
+                      "bytes":  197694179,
+                      "sha256":  "7c792756c11f1afbfc77f2a314a0591421a87b5aa7c68d786088547771d7d035",
+                      "modelFiles":  2,
+                      "matchesLock":  true
+                  },
+                  {
+                      "name":  "gu.itpack",
+                      "packId":  "asr.indicconformer.gu.int8",
+                      "bytes":  197694063,
+                      "sha256":  "2b18e19ead3cee2454894f48230bfb76f6c9ad658b1b128b84f2f27b7051c8dd",
+                      "modelFiles":  2,
+                      "matchesLock":  true
+                  },
+                  {
+                      "name":  "kn.itpack",
+                      "packId":  "asr.indicconformer.kn.int8",
+                      "bytes":  197694330,
+                      "sha256":  "709deb40291085f8bacf86c9fd337e697105b35d5f4ab2c9161024a4b874ed82",
+                      "modelFiles":  2,
+                      "matchesLock":  true
+                  },
+                  {
+                      "name":  "ml.itpack",
+                      "packId":  "asr.indicconformer.ml.int8",
+                      "bytes":  197694154,
+                      "sha256":  "51f7dc55089735fad42e537bb4aee17fbf73ce1968408bc81e2d7312e0477e5c",
+                      "modelFiles":  2,
+                      "matchesLock":  true
+                  },
+                  {
+                      "name":  "mr.itpack",
+                      "packId":  "asr.indicconformer.mr.int8",
+                      "bytes":  197694195,
+                      "sha256":  "d06b1dbb128ea123b3ee08b36cde4cfc7eb6db36ba484b309b6a28807a8574c9",
+                      "modelFiles":  2,
+                      "matchesLock":  true
+                  },
+                  {
+                      "name":  "ta.itpack",
+                      "packId":  "asr.indicconformer.ta.int8",
+                      "bytes":  197694115,
+                      "sha256":  "a0429d226f7267f87f70d8b57dd26e94d6b0f0d9dd848145284ec371374ffe1d",
+                      "modelFiles":  2,
+                      "matchesLock":  true
+                  },
+                  {
+                      "name":  "te.itpack",
+                      "packId":  "asr.indicconformer.te.int8",
+                      "bytes":  197694294,
+                      "sha256":  "309ddf58a555577e537539ed2c720e7967b37ece8f03f8dcf12c939fabcbdeb9",
+                      "modelFiles":  2,
+                      "matchesLock":  true
+                  },
+                  {
+                      "name":  "or-experimental.itpack",
+                      "packId":  "asr.indicconformer.or.ctc.experimental.v1",
+                      "bytes":  197692569,
+                      "sha256":  "ae56de0ec9a9830ae1c9fa865229886111a7480803f6ffc71c5fae503d82d45b",
+                      "modelFiles":  2,
+                      "matchesLock":  true
+                  }
+              ]
+}

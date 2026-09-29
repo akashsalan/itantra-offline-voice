@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "language": "mr",
+  "reviewStatus": "native_speaker_review_pending",
+  "templates": [
+    {
+      "title": "वैद्यकीय मदत / Medical",
+      "text": "वैद्यकीय मदतीची गरज आहे. कृपया मदत पाठवा."
+    },
+    {
+      "title": "आग / Fire",
+      "text": "जवळ आग लागली आहे. सुरक्षित ठिकाणी जा."
+    },
+    {
+      "title": "अडकलेला / Trapped",
+      "text": "मी अडकलो आहे. कृपया मदत पाठवा."
+    },
+    {
+      "title": "स्थलांतर / Evacuation",
+      "text": "सुरक्षित ठिकाणी जाण्यासाठी मदतीची गरज आहे."
+    },
+    {
+      "title": "तातडीचा धोका / Danger",
+      "text": "तातडीचा धोका आहे. कृपया मदत पाठवा."
+    }
+  ]
+}

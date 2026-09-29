@@ -1,0 +1,233 @@
+{
+  "generated": "2026-09-24T10:41:05Z",
+  "sampleRate": 22050,
+  "acousticSource": "RaunakSaha/echobharat-models@2ad314c3ecafeb252bac82785ac541325596ac9c (int8)",
+  "vocoderSource": "AI4Bharat/Indic-TTS v1-checkpoints-release (float32, exported here)",
+  "pairs": [
+    {
+      "language": "bn",
+      "tokens": 32,
+      "dropped": [],
+      "melFrames": 243,
+      "audioSeconds": 2.821,
+      "acousticMs": 659.7,
+      "vocoderMs": 971.7,
+      "rtf": 0.578,
+      "peak": 0.3426,
+      "files": {
+        "acoustic.onnx": {
+          "bytes": 63184928,
+          "sha256": "20317e8840f8dad2e7e54d23170a88c2642ed60b5b931474f8d1cde3c19b8a9a"
+        },
+        "vocoder.onnx": {
+          "bytes": 55743664,
+          "sha256": "71af785d328102c40e2089ed64eaff0c14dd93785ebe454ee84af8de49f40b0e"
+        },
+        "tokens.json": {
+          "bytes": 661,
+          "sha256": "d4d691b059dd8ea2e152f9875df5287ff4800f56bc06d1efe7f70d80532f459e"
+        }
+      }
+    },
+    {
+      "language": "en",
+      "tokens": 62,
+      "dropped": [],
+      "melFrames": 315,
+      "audioSeconds": 3.657,
+      "acousticMs": 906.7,
+      "vocoderMs": 1093.1,
+      "rtf": 0.547,
+      "peak": 0.351,
+      "files": {
+        "acoustic.onnx": {
+          "bytes": 63181344,
+          "sha256": "8ae4c26e5d03ef1b72fba184f9460d2eca1e81362dd4df90839b449ca9faa805"
+        },
+        "vocoder.onnx": {
+          "bytes": 55743664,
+          "sha256": "a70061e58bc171420d75042a05a579b29a4c0d96de6d2484b12cf0d7e9d6d96d"
+        },
+        "tokens.json": {
+          "bytes": 481,
+          "sha256": "721ef293934a5f7554f366c57aa48742065cf98349becb0ea66e31b5525e0989"
+        }
+      }
+    },
+    {
+      "language": "gu",
+      "tokens": 24,
+      "dropped": [],
+      "melFrames": 294,
+      "audioSeconds": 3.413,
+      "acousticMs": 699.2,
+      "vocoderMs": 1005.1,
+      "rtf": 0.499,
+      "peak": 0.6019,
+      "files": {
+        "acoustic.onnx": {
+          "bytes": 63186465,
+          "sha256": "1f9c8c6f5a0335a75744deb7449d2c7565e7a1fd58bac5c9a148c73eb3731694"
+        },
+        "vocoder.onnx": {
+          "bytes": 55743664,
+          "sha256": "3f781fc26211676c311af93e21d2ed5261b4c046152c2a6aff0ffadc1b9e16f9"
+        },
+        "tokens.json": {
+          "bytes": 674,
+          "sha256": "3f714f3d96c47236cb9c8b7c27a3423af141f0edc862e689a0a277394155ade8"
+        }
+      }
+    },
+    {
+      "language": "hi",
+      "tokens": 55,
+      "dropped": [],
+      "melFrames": 363,
+      "audioSeconds": 4.214,
+      "acousticMs": 821.6,
+      "vocoderMs": 1061.4,
+      "rtf": 0.447,
+      "peak": 0.6429,
+      "files": {
+        "acoustic.onnx": {
+          "bytes": 63185953,
+          "sha256": "878c2359fa9ed88dbf3d7895f380ee9ca025247c722032220970b004b0e0a476"
+        },
+        "vocoder.onnx": {
+          "bytes": 55743664,
+          "sha256": "e1f9456e86ab811c81df593838c839d0001f42e6290ecba3ca576d42c40ba6ac"
+        },
+        "tokens.json": {
+          "bytes": 667,
+          "sha256": "315cd28bbbad1aa7119f59d778f28b35666cbbfc85c2f748e2146bbf8edafb35"
+        }
+      }
+    },
+    {
+      "language": "kn",
+      "tokens": 30,
+      "dropped": [],
+      "melFrames": 239,
+      "audioSeconds": 2.775,
+      "acousticMs": 729.8,
+      "vocoderMs": 869.6,
+      "rtf": 0.576,
+      "peak": 0.6371,
+      "files": {
+        "acoustic.onnx": {
+          "bytes": 63187488,
+          "sha256": "6d3ea7c4092a1dd59e568fdad0fb32d3b1214719df79d5beea169ce81b9b2eb1"
+        },
+        "vocoder.onnx": {
+          "bytes": 55743664,
+          "sha256": "a031a0478b673b7d4ea31764949904c8f5bbd6e8e60f35e4f7075cbb1ef7f7f5"
+        },
+        "tokens.json": {
+          "bytes": 687,
+          "sha256": "fd0a371be1ef5f2640587dcd41ae665a9bdc98d71d36fb4142490bacb5990fee"
+        }
+      }
+    },
+    {
+      "language": "ml",
+      "tokens": 39,
+      "dropped": [],
+      "melFrames": 235,
+      "audioSeconds": 2.728,
+      "acousticMs": 713.3,
+      "vocoderMs": 901.5,
+      "rtf": 0.592,
+      "peak": 0.6483,
+      "files": {
+        "acoustic.onnx": {
+          "bytes": 63179297,
+          "sha256": "ea1baa0447f49d433262de0289ce2d42a1512ee1233dea6e7d044e75bad1a7ed"
+        },
+        "vocoder.onnx": {
+          "bytes": 55743664,
+          "sha256": "92eff8411dcc140cf792d72b71c508c9c678304078a28ce758c26651ba426622"
+        },
+        "tokens.json": {
+          "bytes": 591,
+          "sha256": "399dcb44b36a498870070219ce6eda430846bb19028f73cb82f4a5c05c94a03a"
+        }
+      }
+    },
+    {
+      "language": "mr",
+      "tokens": 22,
+      "dropped": [],
+      "melFrames": 231,
+      "audioSeconds": 2.682,
+      "acousticMs": 614.0,
+      "vocoderMs": 896.5,
+      "rtf": 0.563,
+      "peak": 0.5092,
+      "files": {
+        "acoustic.onnx": {
+          "bytes": 63199779,
+          "sha256": "674c393740a4ef281ac204d8fbc5a93cebfbad2e7e83ba395febfceee3c0828e"
+        },
+        "vocoder.onnx": {
+          "bytes": 55743664,
+          "sha256": "ce11dff470c0014cf88f0576e8da4487f5c571bbd497f6b9a549bbc08401e2d5"
+        },
+        "tokens.json": {
+          "bytes": 842,
+          "sha256": "5767c4ff4b9f2f9b9d555a17af4ef08ec06a6698d0bf01d52818238064946be8"
+        }
+      }
+    },
+    {
+      "language": "ta",
+      "tokens": 39,
+      "dropped": [],
+      "melFrames": 267,
+      "audioSeconds": 3.1,
+      "acousticMs": 731.7,
+      "vocoderMs": 995.5,
+      "rtf": 0.557,
+      "peak": 0.2337,
+      "files": {
+        "acoustic.onnx": {
+          "bytes": 63168544,
+          "sha256": "1e88c1838486b3974f754767cb7065719961c59fb9616c30b7484f90919133ec"
+        },
+        "vocoder.onnx": {
+          "bytes": 55743664,
+          "sha256": "6fa03ae0e403f8b06a934d6a2825c9114366ffa8bd110bad77e378cefbb5713d"
+        },
+        "tokens.json": {
+          "bytes": 442,
+          "sha256": "aba0d6f7807becb5acc17b681ce44f99673a9ef554aad798d1b73fd2d518b2f2"
+        }
+      }
+    },
+    {
+      "language": "te",
+      "tokens": 30,
+      "dropped": [],
+      "melFrames": 188,
+      "audioSeconds": 2.183,
+      "acousticMs": 805.2,
+      "vocoderMs": 932.2,
+      "rtf": 0.796,
+      "peak": 0.5378,
+      "files": {
+        "acoustic.onnx": {
+          "bytes": 63179809,
+          "sha256": "995312b833bbf17bc8c1a4281f9a0e141706d77f782a812109ec992bef8e6869"
+        },
+        "vocoder.onnx": {
+          "bytes": 55743664,
+          "sha256": "92eff8411dcc140cf792d72b71c508c9c678304078a28ce758c26651ba426622"
+        },
+        "tokens.json": {
+          "bytes": 586,
+          "sha256": "f14587cf5a525a83822de7b56d1d18836e3e1764bc650d94b6558d14d3771726"
+        }
+      }
+    }
+  ]
+}

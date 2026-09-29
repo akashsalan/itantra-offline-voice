@@ -1,0 +1,17 @@
+﻿{
+    "measuredAtUtc":  "2026-09-13T06:08:16.3554235Z",
+    "packageInfo":  [
+                        "versionCode=12 minSdk=26 targetSdk=36",
+                        "versionName=0.5.1-english"
+                    ],
+    "installedApkMatchesBuild":  true,
+    "apkSha256":  "4d37dd8fb91b6e0ae09f057fc56b2ffbee9360cc2bc2a50b0b54d229ad6db012",
+    "englishDownload":  "/sdcard/Download/itantra-en.itpack",
+    "englishPackMatchesPC":  true,
+    "englishPackSha256":  "e9532d0a392fbd63b086e47bbd6bdc1cc69c5f213b4ba0ffb4d8526201435933",
+    "storage":  [
+                    "Filesystem      1K-blocks     Used Available Use% Mounted on",
+                    "/dev/block/dm-2  51699272 50365144   1186672  98% /data",
+                    "/data/media      51494472 50512600    981872  99% /storage/emulated"
+                ]
+}

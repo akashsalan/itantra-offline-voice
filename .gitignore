@@ -1,0 +1,33 @@
+# Build outputs and machine-local configuration
+.gradle/
+.kotlin/
+**/build/
+**/.cxx/
+.idea/
+*.iml
+local.properties
+.tools/
+__pycache__/
+*.pyc
+*.hprof
+*.jks
+*.keystore
+
+# Acquired/generated binary artifacts never belong in normal Git history
+downloads/
+models/source/
+models/archives/
+models/packs/
+third_party/sherpa-onnx/*.aar
+*.onnx
+*.ort
+*.nemo
+*.itpack
+*.apk
+# Sideload folder assembled by scripts/build-dist-folder.ps1. Regenerable, and the
+# .itpack files in it are hardlinks to models/packs.
+/dist/
+*.aab
+benchmark/raw-audio/
+third_party/espeak-ng/src/windows/Debug/
+third_party/moonshine/*.aar

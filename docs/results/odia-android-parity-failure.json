@@ -1,0 +1,37 @@
+{
+  "kind": "android_synthetic_fixture_not_microphone_or_corpus_accuracy",
+  "device": "RMX1801",
+  "sdk": 29,
+  "pack_id": "asr.indicconformer.or.ctc.experimental.v1",
+  "model_bytes": 197661424,
+  "model_sha256": "b55bab9f4e4ac53655acd5cf9cde8ae8ca5dab20cab426c8e0282c9335b05caf",
+  "native_speaker_sentences_scored": 0,
+  "release_validated": false,
+  "rows": [
+    {
+      "fixture": 0,
+      "iteration": 0,
+      "fixture_sha256": "7412849f4928d2fc9d57a25b32eb3aede78b3924b0108ad4de69c5ef1436a592",
+      "text": "ନମସ୍କାର ଆପନୋ କେେମିତି ବସନ୍ତି",
+      "desktop_text": "ନମସ୍କାର ଆପନୋ କେେମିତି ବସନ୍ତି",
+      "audio_seconds": 3.043125,
+      "inference_ms": 1460.784427,
+      "rtf": 0.48002774352023003,
+      "pss_after_decode_kb": 313740
+    },
+    {
+      "fixture": 1,
+      "iteration": 0,
+      "fixture_sha256": "539b87da7aff6fea6ca3aa2abaccccbcad6e2fe400f732e6b334610173899c87",
+      "text": "ମୋତେ ସାହା ଦିନ ରୁହନ୍ତୁ",
+      "desktop_text": "ମୋତେ ସାହା ଦର ରହନ୍ତୁ",
+      "audio_seconds": 2.221875,
+      "inference_ms": 1033.102396,
+      "rtf": 0.4649687295639944,
+      "pss_after_decode_kb": 313740
+    }
+  ],
+  "model_load_ms": 1409.885885,
+  "sampled_peak_pss_kb": 313740,
+  "pss_sampling_interval_ms": 100
+}

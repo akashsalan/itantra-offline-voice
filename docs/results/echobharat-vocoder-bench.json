@@ -1,0 +1,22 @@
+{
+  "generated": "2026-09-24T06:01:37Z",
+  "onnxruntime": "1.24.3",
+  "torch": "2.10.0+cpu",
+  "melFrames": 362,
+  "audioSeconds": 4.203,
+  "note": "fp32/fp16 use rebuilt HiFi-GAN V1 with random weights; timing only, not audio quality.",
+  "results": [
+    {
+      "variant": "int8 (EchoBharat, ConvInteger)",
+      "ms": 12235.7,
+      "rtf": 2.911,
+      "fileMiB": 21.11
+    },
+    {
+      "variant": "fp32 (rebuilt V1)",
+      "ms": 937.1,
+      "rtf": 0.223,
+      "fileMiB": 53.16
+    }
+  ]
+}

@@ -1,0 +1,750 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-24T12:03:08Z",
+  "hashAlgorithm": "SHA-256",
+  "activeEnglishPackId": "asr.moonshine.en.small.streaming.2026-08-21.quantized",
+  "englishSelection": "User selected MIT Moonshine Small Streaming on 2026-09-17. Eight quantized files checked against publisher size/CRC32C, then SHA-256 pinned. Parakeet remains loadable for recovery of existing imports. Old Base and Zipformer entries are historical. No corpus WER claimed.",
+  "artifacts": [
+    {
+      "id": "asr.bn.indicconformer.int8",
+      "path": "models/source/asr/bn/model.int8.onnx",
+      "bytes": 197595578,
+      "sha256": "e9120a534f69df065314be468bf15579f1b92a4cd8c07ad119b80b69244718a8",
+      "source": "https://huggingface.co/parismitaglobalsolutions/indicconformer-sherpa-onnx/resolve/main/bn/model.int8.onnx",
+      "status": "downloaded_unbenchmarked"
+    },
+    {
+      "id": "asr.en.moonshine.base.decoder",
+      "path": "models/source/asr/en-moonshine-base/decoder_model_merged.ort",
+      "bytes": 109424400,
+      "sha256": "d9d7b333af34bc552580576ddcf248a1c6c839e0d3b43b09afb9376ed009899d",
+      "source": "https://huggingface.co/csukuangfj2/sherpa-onnx-moonshine-base-en-quantized-2026-02-27/resolve/8f4d6c58c03d40bcea40043bb7120a878f2bbef6/decoder_model_merged.ort",
+      "status": "pinned_candidate_accuracy_not_validated",
+      "license": "MIT (English exception in publisher LICENSE)"
+    },
+    {
+      "id": "asr.en.moonshine.base.encoder",
+      "path": "models/source/asr/en-moonshine-base/encoder_model.ort",
+      "bytes": 31326816,
+      "sha256": "7c66495948d0d08ec1af454cd4b5514862ae6511e94712a60e6d83eaec8dc8cf",
+      "source": "https://huggingface.co/csukuangfj2/sherpa-onnx-moonshine-base-en-quantized-2026-02-27/resolve/8f4d6c58c03d40bcea40043bb7120a878f2bbef6/encoder_model.ort",
+      "status": "pinned_candidate_accuracy_not_validated",
+      "license": "MIT (English exception in publisher LICENSE)"
+    },
+    {
+      "id": "asr.en.moonshine.base.license",
+      "path": "models/source/asr/en-moonshine-base/LICENSE.txt",
+      "bytes": 13344,
+      "sha256": "6148d7574a6554b7379b633cfd4c4fe5840c3f548d13bc83e00b52dc6fa00abd",
+      "source": "https://huggingface.co/csukuangfj2/sherpa-onnx-moonshine-base-en-quantized-2026-02-27/resolve/8f4d6c58c03d40bcea40043bb7120a878f2bbef6/LICENSE",
+      "status": "pinned_candidate_accuracy_not_validated",
+      "license": "Publisher LICENSE; Section 1 MIT applies to English only"
+    },
+    {
+      "id": "asr.en.moonshine.base.tokens",
+      "path": "models/source/asr/en-moonshine-base/tokens.txt",
+      "bytes": 549350,
+      "sha256": "2870d843e14c1e187bf1913a521562a63b53933814bd7f2145120468f494a049",
+      "source": "https://huggingface.co/csukuangfj2/sherpa-onnx-moonshine-base-en-quantized-2026-02-27/resolve/8f4d6c58c03d40bcea40043bb7120a878f2bbef6/tokens.txt",
+      "status": "pinned_candidate_accuracy_not_validated",
+      "license": "MIT (English exception in publisher LICENSE)"
+    },
+    {
+      "id": "asr.en.moonshine.small.streaming.LICENSE.txt",
+      "path": "models/source/asr/en-moonshine-small-streaming/LICENSE.txt",
+      "bytes": 14180,
+      "sha256": "fa7d1174dd8af6a7cd280be20b80d10095ed4c19b5b20b61a7715c3ad790dc5f",
+      "source": "https://raw.githubusercontent.com/moonshine-ai/moonshine/234f60faa0eb388b01cdf7e60aca232af37aefda/LICENSE",
+      "status": "pinned_accuracy_not_validated",
+      "license": "MIT; Section 1 applies to all streaming models"
+    },
+    {
+      "id": "asr.en.moonshine.small.streaming.adapter.ort",
+      "path": "models/source/asr/en-moonshine-small-streaming/adapter.ort",
+      "bytes": 2870368,
+      "sha256": "c665f742364febad597cc9ac1e0b341ffbee0e24a1466e2f3bde95e6e4771762",
+      "source": "https://download.moonshine.ai/model/small-streaming-en/quantized_26_08_21/adapter.ort",
+      "publisherCrc32c": "XlWjTg==",
+      "status": "pinned_accuracy_not_validated",
+      "license": "MIT; Section 1 applies to all streaming models"
+    },
+    {
+      "id": "asr.en.moonshine.small.streaming.cross_kv.ort",
+      "path": "models/source/asr/en-moonshine-small-streaming/cross_kv.ort",
+      "bytes": 5356536,
+      "sha256": "e2d3417144e9514055ebfefe8dcc4c0a55a55adcb8530435844c75c53e352bf6",
+      "source": "https://download.moonshine.ai/model/small-streaming-en/quantized_26_08_21/cross_kv.ort",
+      "publisherCrc32c": "5ySK8g==",
+      "status": "pinned_accuracy_not_validated",
+      "license": "MIT; Section 1 applies to all streaming models"
+    },
+    {
+      "id": "asr.en.moonshine.small.streaming.decoder_kv.ort",
+      "path": "models/source/asr/en-moonshine-small-streaming/decoder_kv.ort",
+      "bytes": 81878600,
+      "sha256": "1a05465b1dd955858dfcbee039c0020fb5dd982b0f5094c34e61735d518d771b",
+      "source": "https://download.moonshine.ai/model/small-streaming-en/quantized_26_08_21/decoder_kv.ort",
+      "publisherCrc32c": "Rn/VUA==",
+      "status": "pinned_accuracy_not_validated",
+      "license": "MIT; Section 1 applies to all streaming models"
+    },
+    {
+      "id": "asr.en.moonshine.small.streaming.encoder.ort",
+      "path": "models/source/asr/en-moonshine-small-streaming/encoder.ort",
+      "bytes": 44148576,
+      "sha256": "2d4d973e91e8aca08c51e7e7efa28a46ab265b63d809d5294d18b86bcd85b993",
+      "source": "https://download.moonshine.ai/model/small-streaming-en/quantized_26_08_21/encoder.ort",
+      "publisherCrc32c": "41D2jQ==",
+      "status": "pinned_accuracy_not_validated",
+      "license": "MIT; Section 1 applies to all streaming models"
+    },
+    {
+      "id": "asr.en.moonshine.small.streaming.frontend.model.ort",
+      "path": "models/source/asr/en-moonshine-small-streaming/frontend.model.ort",
+      "bytes": 26944,
+      "sha256": "09b1210ae30dc5f0f3e45f0ebab914c254741323114f53fbbe5ae62cca35058f",
+      "source": "https://download.moonshine.ai/model/small-streaming-en/quantized_26_08_21/frontend.model.ort",
+      "publisherCrc32c": "WW2/2g==",
+      "status": "pinned_accuracy_not_validated",
+      "license": "MIT; Section 1 applies to all streaming models"
+    },
+    {
+      "id": "asr.en.moonshine.small.streaming.frontend.weights.ort",
+      "path": "models/source/asr/en-moonshine-small-streaming/frontend.weights.ort",
+      "bytes": 7769464,
+      "sha256": "7ef97521bd4bad3928f5bb6808586f4fcc6e92bd5990394112eed7d4052ec338",
+      "source": "https://download.moonshine.ai/model/small-streaming-en/quantized_26_08_21/frontend.weights.ort",
+      "publisherCrc32c": "9pROuQ==",
+      "status": "pinned_accuracy_not_validated",
+      "license": "MIT; Section 1 applies to all streaming models"
+    },
+    {
+      "id": "asr.en.moonshine.small.streaming.streaming_config.json",
+      "path": "models/source/asr/en-moonshine-small-streaming/streaming_config.json",
+      "bytes": 512,
+      "sha256": "26f02b6afb22d60871a5efd85c3d38e569cc0ddb6c5eb6e93d3260152ae8a47a",
+      "source": "https://download.moonshine.ai/model/small-streaming-en/quantized_26_08_21/streaming_config.json",
+      "publisherCrc32c": "dPbFiw==",
+      "status": "pinned_accuracy_not_validated",
+      "license": "MIT; Section 1 applies to all streaming models"
+    },
+    {
+      "id": "asr.en.moonshine.small.streaming.tokenizer.bin",
+      "path": "models/source/asr/en-moonshine-small-streaming/tokenizer.bin",
+      "bytes": 249974,
+      "sha256": "6884b35fd6377d4c4d32336a0bc152f36b64d1e45b6503683cdc238250a8472d",
+      "source": "https://download.moonshine.ai/model/small-streaming-en/quantized_26_08_21/tokenizer.bin",
+      "publisherCrc32c": "B7s10Q==",
+      "status": "pinned_accuracy_not_validated",
+      "license": "MIT; Section 1 applies to all streaming models"
+    },
+    {
+      "id": "asr.en.moonshine.tiny.streaming.LICENSE.txt",
+      "path": "models/source/asr/en-moonshine-tiny-streaming/LICENSE.txt",
+      "bytes": 14180,
+      "sha256": "fa7d1174dd8af6a7cd280be20b80d10095ed4c19b5b20b61a7715c3ad790dc5f",
+      "source": "https://raw.githubusercontent.com/moonshine-ai/moonshine/234f60faa0eb388b01cdf7e60aca232af37aefda/LICENSE",
+      "status": "pinned_accuracy_not_validated",
+      "license": "MIT; all streaming models"
+    },
+    {
+      "id": "asr.en.moonshine.tiny.streaming.adapter.ort",
+      "path": "models/source/asr/en-moonshine-tiny-streaming/adapter.ort",
+      "bytes": 1319664,
+      "sha256": "22ecc949e146c49667fda28d102d4e30749a107dc88a396292aa8f277ef1347c",
+      "source": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21/adapter.ort",
+      "publisherCrc32c": "kwQ+Bw==",
+      "status": "pinned_accuracy_not_validated",
+      "license": "MIT; all streaming models"
+    },
+    {
+      "id": "asr.en.moonshine.tiny.streaming.cross_kv.ort",
+      "path": "models/source/asr/en-moonshine-tiny-streaming/cross_kv.ort",
+      "bytes": 1287544,
+      "sha256": "143a36667b8d05fd9d04e8c337b7ee121f37ef299aea6b3d82bdb3d3401950b4",
+      "source": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21/cross_kv.ort",
+      "publisherCrc32c": "76wzFQ==",
+      "status": "pinned_accuracy_not_validated",
+      "license": "MIT; all streaming models"
+    },
+    {
+      "id": "asr.en.moonshine.tiny.streaming.decoder_kv.ort",
+      "path": "models/source/asr/en-moonshine-tiny-streaming/decoder_kv.ort",
+      "bytes": 32583720,
+      "sha256": "8852553f312adb6c9aa4d17418015049b30f412209ee569d336548c0044627de",
+      "source": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21/decoder_kv.ort",
+      "publisherCrc32c": "KJjeNw==",
+      "status": "pinned_accuracy_not_validated",
+      "license": "MIT; all streaming models"
+    },
+    {
+      "id": "asr.en.moonshine.tiny.streaming.encoder.ort",
+      "path": "models/source/asr/en-moonshine-tiny-streaming/encoder.ort",
+      "bytes": 7675440,
+      "sha256": "a8414e1a5dedf9f2093d7680601dd8a9b0433e7020260eafe0e370ead91134ca",
+      "source": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21/encoder.ort",
+      "publisherCrc32c": "UjAIpQ==",
+      "status": "pinned_accuracy_not_validated",
+      "license": "MIT; all streaming models"
+    },
+    {
+      "id": "asr.en.moonshine.tiny.streaming.frontend.model.ort",
+      "path": "models/source/asr/en-moonshine-tiny-streaming/frontend.model.ort",
+      "bytes": 23344,
+      "sha256": "5121b561417b638afce0c6c31b760e37c93cf97f80d9b0031aad1fe7b6f25d61",
+      "source": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21/frontend.model.ort",
+      "publisherCrc32c": "aM/+wQ==",
+      "status": "pinned_accuracy_not_validated",
+      "license": "MIT; all streaming models"
+    },
+    {
+      "id": "asr.en.moonshine.tiny.streaming.frontend.weights.ort",
+      "path": "models/source/asr/en-moonshine-tiny-streaming/frontend.weights.ort",
+      "bytes": 2093464,
+      "sha256": "217da24ac6f522ebf02da8ef288e77d1ac68d50d4a6821433182e4fbf4204bbd",
+      "source": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21/frontend.weights.ort",
+      "publisherCrc32c": "WYZ7EQ==",
+      "status": "pinned_accuracy_not_validated",
+      "license": "MIT; all streaming models"
+    },
+    {
+      "id": "asr.en.moonshine.tiny.streaming.streaming_config.json",
+      "path": "models/source/asr/en-moonshine-tiny-streaming/streaming_config.json",
+      "bytes": 509,
+      "sha256": "74fe5ddebd63b17caf59e8a3b18c17547ff7bce1642050edbb1c3962674f8950",
+      "source": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21/streaming_config.json",
+      "publisherCrc32c": "HGL0Ug==",
+      "status": "pinned_accuracy_not_validated",
+      "license": "MIT; all streaming models"
+    },
+    {
+      "id": "asr.en.moonshine.tiny.streaming.tokenizer.bin",
+      "path": "models/source/asr/en-moonshine-tiny-streaming/tokenizer.bin",
+      "bytes": 249974,
+      "sha256": "6884b35fd6377d4c4d32336a0bc152f36b64d1e45b6503683cdc238250a8472d",
+      "source": "https://download.moonshine.ai/model/tiny-streaming-en/quantized_26_08_21/tokenizer.bin",
+      "publisherCrc32c": "B7s10Q==",
+      "status": "pinned_accuracy_not_validated",
+      "license": "MIT; all streaming models"
+    },
+    {
+      "id": "asr.en.parakeet110m.license",
+      "path": "models/source/asr/en-parakeet-ctc/LICENSE.txt",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "source": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+      "status": "pinned_candidate_accuracy_not_validated",
+      "license": "CC-BY-4.0 legal text"
+    },
+    {
+      "id": "asr.en.parakeet110m.model",
+      "path": "models/source/asr/en-parakeet-ctc/model.int8.onnx",
+      "bytes": 131652171,
+      "sha256": "9177a9146cf32ee0cc8152276ef95116f312018d316be37ccf57f7efea81fc1a",
+      "source": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-nemo-parakeet_tdt_ctc_110m-en-36000-int8.tar.bz2",
+      "status": "pinned_candidate_accuracy_not_validated",
+      "license": "CC-BY-4.0; NVIDIA and Suno; sherpa CTC INT8 export"
+    },
+    {
+      "id": "asr.en.parakeet110m.tokens",
+      "path": "models/source/asr/en-parakeet-ctc/tokens.txt",
+      "bytes": 9953,
+      "sha256": "450e56bd2f036fe5b6aa821865838cc5aa9d8b0106134ce9a9ba0664abe6cd10",
+      "source": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-nemo-parakeet_tdt_ctc_110m-en-36000-int8.tar.bz2",
+      "status": "pinned_candidate_accuracy_not_validated",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "asr.en.zipformer20230621.decoder.fp32",
+      "path": "models/source/asr/en-2023-06-21/decoder-epoch-99-avg-1.onnx",
+      "bytes": 2092566,
+      "sha256": "9da02b77cb08826756ec6a88635f35a40374e4164e7c6359121a9145958a6ceb",
+      "source": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-en-2023-06-21/resolve/9a65b6ea94c311ca770c2bf895b30f456a22d703/decoder-epoch-99-avg-1.onnx",
+      "status": "host_fixture_tested_android_trial_pending",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "asr.en.zipformer20230621.encoder.int8",
+      "path": "models/source/asr/en-2023-06-21/encoder-epoch-99-avg-1.int8.onnx",
+      "bytes": 187823992,
+      "sha256": "32c98281c7bd8b63e3e142d007251b37f120572e8fdea9a4f5a79ce22b10ec4f",
+      "source": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-en-2023-06-21/resolve/9a65b6ea94c311ca770c2bf895b30f456a22d703/encoder-epoch-99-avg-1.int8.onnx",
+      "status": "host_fixture_tested_android_trial_pending",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "asr.en.zipformer20230621.joiner.int8",
+      "path": "models/source/asr/en-2023-06-21/joiner-epoch-99-avg-1.int8.onnx",
+      "bytes": 259335,
+      "sha256": "831477d390e59a61f1b6a6f763b9903e6c6366ff6034f1ddba613be82637122f",
+      "source": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-en-2023-06-21/resolve/9a65b6ea94c311ca770c2bf895b30f456a22d703/joiner-epoch-99-avg-1.int8.onnx",
+      "status": "host_fixture_tested_android_trial_pending",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "asr.en.zipformer20230621.tokens",
+      "path": "models/source/asr/en-2023-06-21/tokens.txt",
+      "bytes": 5048,
+      "sha256": "49e3c2646595fd907228b3c6787069658f67b17377c60aeb8619c4551b2316fb",
+      "source": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-en-2023-06-21/resolve/9a65b6ea94c311ca770c2bf895b30f456a22d703/tokens.txt",
+      "status": "host_fixture_tested_android_trial_pending",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "asr.en.zipformer20m.decoder.fp32",
+      "path": "models/source/asr/en/decoder-epoch-99-avg-1.onnx",
+      "bytes": 2092272,
+      "sha256": "45a7f940ecfb53d89fa270ad11b88b961e53a317203eb24b1c8e95ed208b0f30",
+      "source": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-streaming-zipformer-en-20M-2023-02-17.tar.bz2",
+      "status": "downloaded_unbenchmarked"
+    },
+    {
+      "id": "asr.en.zipformer20m.encoder.int8",
+      "path": "models/source/asr/en/encoder-epoch-99-avg-1.int8.onnx",
+      "bytes": 42845182,
+      "sha256": "3810755ce7c3ab26b42a8bcf39d191308fa27fb0f53358823ba46141d03b7eb3",
+      "source": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-streaming-zipformer-en-20M-2023-02-17.tar.bz2",
+      "status": "downloaded_unbenchmarked"
+    },
+    {
+      "id": "asr.en.zipformer20m.joiner.int8",
+      "path": "models/source/asr/en/joiner-epoch-99-avg-1.int8.onnx",
+      "bytes": 259572,
+      "sha256": "e085d73b593cf9b0707f370dbd656d58327d3fe36d80d849202ef81df02cb01e",
+      "source": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-streaming-zipformer-en-20M-2023-02-17.tar.bz2",
+      "status": "downloaded_unbenchmarked"
+    },
+    {
+      "id": "asr.en.zipformer20m.tokens",
+      "path": "models/source/asr/en/tokens.txt",
+      "bytes": 5048,
+      "sha256": "49e3c2646595fd907228b3c6787069658f67b17377c60aeb8619c4551b2316fb",
+      "source": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-streaming-zipformer-en-20M-2023-02-17.tar.bz2",
+      "status": "downloaded_unbenchmarked"
+    },
+    {
+      "id": "asr.gu.indicconformer.int8",
+      "path": "models/source/asr/gu/model.int8.onnx",
+      "bytes": 197595461,
+      "sha256": "822ed7f0b809bbd479275bf91c913d05564b88c0d082bbcba2f37999b88cb598",
+      "source": "https://huggingface.co/parismitaglobalsolutions/indicconformer-sherpa-onnx/resolve/main/gu/model.int8.onnx",
+      "status": "downloaded_unbenchmarked"
+    },
+    {
+      "id": "asr.hi.indicconformer.int8",
+      "path": "models/source/asr/hi/model.int8.onnx",
+      "bytes": 197595593,
+      "sha256": "915c71e04dd7e5378a4057fdebb252b3a587188e4e99db6d7ce0909ad5ad05fa",
+      "source": "https://huggingface.co/parismitaglobalsolutions/indicconformer-sherpa-onnx/resolve/main/hi/model.int8.onnx",
+      "status": "downloaded_unbenchmarked"
+    },
+    {
+      "id": "asr.indicconformer.shared_tokens",
+      "path": "models/source/asr/indic-tokens.txt",
+      "bytes": 67605,
+      "sha256": "ee60967630213f31951817ac8b402b92ec18cce80718a24a49b388e56672dfb2",
+      "source": "https://huggingface.co/parismitaglobalsolutions/indicconformer-sherpa-onnx/resolve/main/tokens.txt",
+      "status": "downloaded_unbenchmarked"
+    },
+    {
+      "id": "asr.kn.indicconformer.int8",
+      "path": "models/source/asr/kn/model.int8.onnx",
+      "bytes": 197595728,
+      "sha256": "b226ce7e4ea35b0dd66991964bd00e011b6b14b0fcdf4f7d1cccd777781c94dc",
+      "source": "https://huggingface.co/parismitaglobalsolutions/indicconformer-sherpa-onnx/resolve/main/kn/model.int8.onnx",
+      "status": "downloaded_unbenchmarked"
+    },
+    {
+      "id": "asr.ml.indicconformer.int8",
+      "path": "models/source/asr/ml/model.int8.onnx",
+      "bytes": 197595555,
+      "sha256": "dcbdfa9f773db910508b40b703cb76c5974e8d4c6f123ea81265b40853c3f0c2",
+      "source": "https://huggingface.co/parismitaglobalsolutions/indicconformer-sherpa-onnx/resolve/main/ml/model.int8.onnx",
+      "status": "downloaded_unbenchmarked"
+    },
+    {
+      "id": "asr.mr.indicconformer.int8",
+      "path": "models/source/asr/mr/model.int8.onnx",
+      "bytes": 197595593,
+      "sha256": "1ea81e55c4b9b12624c9d02a5b9c1b6f7c871c78a55ff52d333f81cb5136eaf2",
+      "source": "https://huggingface.co/parismitaglobalsolutions/indicconformer-sherpa-onnx/resolve/main/mr/model.int8.onnx",
+      "status": "downloaded_unbenchmarked"
+    },
+    {
+      "id": "asr.or.indicconformer.ctc.int8.experimental.v1",
+      "path": "models/source/asr/or-ctc-experimental/model.int8.onnx",
+      "bytes": 197593819,
+      "sha256": "b55bab9f4e4ac53655acd5cf9cde8ae8ca5dab20cab426c8e0282c9335b05caf",
+      "source": "https://objectstore.e2enetworks.net/indicconformer/models/indicconformer_stt_or_hybrid_rnnt_large.nemo",
+      "status": "experimental_host_synthetic_smoke_passed_android_pending",
+      "license": "MIT model; Apache-2.0 export tooling; see THIRD_PARTY_NOTICES.md",
+      "export": {
+        "sourceCheckpointSha256": "e30cfee192fbdc37b7c0b221c76788b439d445e64368cd0447172f7d77deb616",
+        "nemoRevision": "8dce88cf8e94963e2033c3137f7b9993b51db88a",
+        "notebookRevision": "9b07b2bfbfc6039c2e394545474e87c4cbafa19f",
+        "nemoSourceZipSha256": "73f46606dd2e655a6b575752ab64c2832e0d5d7da91961878cf969fe274f15fe",
+        "notebookSha256": "36c41b594bcc6df0dc3f147eceeab0536bed570c97cef682bf58ae3e22549332",
+        "script": "scripts/export-odia.py",
+        "opset": 16,
+        "languageOffset": 3584,
+        "languageSize": 256,
+        "blankId": 5632,
+        "quantization": "dynamic per-channel QUInt8 MatMul only",
+        "report": "docs/results/odia-export-host.json",
+        "nativeSpeakerSentencesScored": 0,
+        "releaseValidated": false
+      }
+    },
+    {
+      "id": "asr.or.indicconformer.source.nemo",
+      "path": "models/source/asr/or/source-model.nemo",
+      "bytes": 523192320,
+      "sha256": "e30cfee192fbdc37b7c0b221c76788b439d445e64368cd0447172f7d77deb616",
+      "source": "https://objectstore.e2enetworks.net/indicconformer/models/indicconformer_stt_or_hybrid_rnnt_large.nemo",
+      "status": "source_only_conversion_required"
+    },
+    {
+      "id": "asr.ta.indicconformer.int8",
+      "path": "models/source/asr/ta/model.int8.onnx",
+      "bytes": 197595513,
+      "sha256": "abb7b59d706b8d27ba3fb5e5e3db7671c9e1a09bf7bc6122de507c60030e65fb",
+      "source": "https://huggingface.co/parismitaglobalsolutions/indicconformer-sherpa-onnx/resolve/main/ta/model.int8.onnx",
+      "status": "downloaded_unbenchmarked"
+    },
+    {
+      "id": "asr.te.indicconformer.int8",
+      "path": "models/source/asr/te/model.int8.onnx",
+      "bytes": 197595693,
+      "sha256": "710f176e33080f1be84b4f38bb5f33be3f522dcf4f191bf4d5cc89f7a85924f3",
+      "source": "https://huggingface.co/parismitaglobalsolutions/indicconformer-sherpa-onnx/resolve/main/te/model.int8.onnx",
+      "status": "downloaded_unbenchmarked"
+    },
+    {
+      "id": "runtime.moonshine.0.1.5.arm64",
+      "path": "third_party/moonshine/moonshine-voice-0.1.5-isolated-arm64.aar",
+      "bytes": 8302359,
+      "sha256": "cf948def454984963a9168e7e737d25ef3ab4b9f86e6d0c60b67d3e0fe41f893",
+      "source": "https://repo.maven.apache.org/maven2/ai/moonshine/moonshine-voice/0.1.5/moonshine-voice-0.1.5.aar",
+      "sourceSha256": "ee2d95c21150683c743db8f3aef66281fd5408bcefc94be3ca1d2545ada1f571",
+      "sourceRevision": "234f60faa0eb388b01cdf7e60aca232af37aefda",
+      "status": "repacked_arm64_isolated_ort_by_scripts/prepare-moonshine-small.py",
+      "license": "MIT; bundled third-party notices in licenses/moonshine-runtime/"
+    },
+    {
+      "id": "runtime.sherpa_onnx.android.1.13.8",
+      "path": "third_party/sherpa-onnx/sherpa-onnx-1.13.8.aar",
+      "bytes": 50129134,
+      "sha256": "633c24321e06b1fe79feafa03ea16cbc0f8a286641e2da3559bac91bdb13bd96",
+      "source": "https://github.com/k2-fsa/sherpa-onnx/releases/download/v1.13.8/sherpa-onnx-1.13.8.aar",
+      "status": "checksum_matches_publisher"
+    },
+    {
+      "id": "tts.indictts.bn.acoustic",
+      "path": "models/source/tts/indictts/bn/acoustic.onnx",
+      "bytes": 63184928,
+      "sha256": "20317e8840f8dad2e7e54d23170a88c2642ed60b5b931474f8d1cde3c19b8a9a",
+      "source": "https://huggingface.co/RaunakSaha/echobharat-models/resolve/2ad314c3ecafeb252bac82785ac541325596ac9c/bn/fastpitch-bn.int8.onnx",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "pinned_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.bn.tokens",
+      "path": "models/source/tts/indictts/bn/tokens.json",
+      "bytes": 661,
+      "sha256": "d4d691b059dd8ea2e152f9875df5287ff4800f56bc06d1efe7f70d80532f459e",
+      "source": "https://huggingface.co/RaunakSaha/echobharat-models/resolve/2ad314c3ecafeb252bac82785ac541325596ac9c/bn/fastpitch-bn.tokens.json",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "pinned_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.bn.vocoder",
+      "path": "models/source/tts/indictts/bn/vocoder.onnx",
+      "bytes": 55743664,
+      "sha256": "71af785d328102c40e2089ed64eaff0c14dd93785ebe454ee84af8de49f40b0e",
+      "source": "https://github.com/AI4Bharat/Indic-TTS/releases/download/v1-checkpoints-release/bn.zip#bn/hifigan/best_model.pth",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "float32_export_verified_against_torch_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.en.acoustic",
+      "path": "models/source/tts/indictts/en/acoustic.onnx",
+      "bytes": 63181344,
+      "sha256": "8ae4c26e5d03ef1b72fba184f9460d2eca1e81362dd4df90839b449ca9faa805",
+      "source": "https://huggingface.co/RaunakSaha/echobharat-models/resolve/2ad314c3ecafeb252bac82785ac541325596ac9c/en/fastpitch-en.int8.onnx",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "pinned_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.en.tokens",
+      "path": "models/source/tts/indictts/en/tokens.json",
+      "bytes": 481,
+      "sha256": "721ef293934a5f7554f366c57aa48742065cf98349becb0ea66e31b5525e0989",
+      "source": "https://huggingface.co/RaunakSaha/echobharat-models/resolve/2ad314c3ecafeb252bac82785ac541325596ac9c/en/fastpitch-en.tokens.json",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "pinned_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.en.vocoder",
+      "path": "models/source/tts/indictts/en/vocoder.onnx",
+      "bytes": 55743664,
+      "sha256": "a70061e58bc171420d75042a05a579b29a4c0d96de6d2484b12cf0d7e9d6d96d",
+      "source": "https://github.com/AI4Bharat/Indic-TTS/releases/download/v1-checkpoints-release/en.zip#en/hifigan/best_model.pth",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "float32_export_verified_against_torch_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.gu.acoustic",
+      "path": "models/source/tts/indictts/gu/acoustic.onnx",
+      "bytes": 63186465,
+      "sha256": "1f9c8c6f5a0335a75744deb7449d2c7565e7a1fd58bac5c9a148c73eb3731694",
+      "source": "https://huggingface.co/RaunakSaha/echobharat-models/resolve/2ad314c3ecafeb252bac82785ac541325596ac9c/gu/fastpitch-gu.int8.onnx",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "pinned_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.gu.tokens",
+      "path": "models/source/tts/indictts/gu/tokens.json",
+      "bytes": 674,
+      "sha256": "3f714f3d96c47236cb9c8b7c27a3423af141f0edc862e689a0a277394155ade8",
+      "source": "https://huggingface.co/RaunakSaha/echobharat-models/resolve/2ad314c3ecafeb252bac82785ac541325596ac9c/gu/fastpitch-gu.tokens.json",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "pinned_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.gu.vocoder",
+      "path": "models/source/tts/indictts/gu/vocoder.onnx",
+      "bytes": 55743664,
+      "sha256": "3f781fc26211676c311af93e21d2ed5261b4c046152c2a6aff0ffadc1b9e16f9",
+      "source": "https://github.com/AI4Bharat/Indic-TTS/releases/download/v1-checkpoints-release/gu.zip#gu/hifigan/best_model.pth",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "float32_export_verified_against_torch_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.hi.acoustic",
+      "path": "models/source/tts/indictts/hi/acoustic.onnx",
+      "bytes": 63185953,
+      "sha256": "878c2359fa9ed88dbf3d7895f380ee9ca025247c722032220970b004b0e0a476",
+      "source": "https://huggingface.co/RaunakSaha/echobharat-models/resolve/2ad314c3ecafeb252bac82785ac541325596ac9c/hi/fastpitch-hi.int8.onnx",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "pinned_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.hi.tokens",
+      "path": "models/source/tts/indictts/hi/tokens.json",
+      "bytes": 667,
+      "sha256": "315cd28bbbad1aa7119f59d778f28b35666cbbfc85c2f748e2146bbf8edafb35",
+      "source": "https://huggingface.co/RaunakSaha/echobharat-models/resolve/2ad314c3ecafeb252bac82785ac541325596ac9c/hi/fastpitch-hi.tokens.json",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "pinned_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.hi.vocoder",
+      "path": "models/source/tts/indictts/hi/vocoder.onnx",
+      "bytes": 55743664,
+      "sha256": "e1f9456e86ab811c81df593838c839d0001f42e6290ecba3ca576d42c40ba6ac",
+      "source": "https://github.com/AI4Bharat/Indic-TTS/releases/download/v1-checkpoints-release/hi.zip#hi/hifigan/best_model.pth",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "float32_export_verified_against_torch_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.kn.acoustic",
+      "path": "models/source/tts/indictts/kn/acoustic.onnx",
+      "bytes": 63187488,
+      "sha256": "6d3ea7c4092a1dd59e568fdad0fb32d3b1214719df79d5beea169ce81b9b2eb1",
+      "source": "https://huggingface.co/RaunakSaha/echobharat-models/resolve/2ad314c3ecafeb252bac82785ac541325596ac9c/kn/fastpitch-kn.int8.onnx",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "pinned_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.kn.tokens",
+      "path": "models/source/tts/indictts/kn/tokens.json",
+      "bytes": 687,
+      "sha256": "fd0a371be1ef5f2640587dcd41ae665a9bdc98d71d36fb4142490bacb5990fee",
+      "source": "https://huggingface.co/RaunakSaha/echobharat-models/resolve/2ad314c3ecafeb252bac82785ac541325596ac9c/kn/fastpitch-kn.tokens.json",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "pinned_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.kn.vocoder",
+      "path": "models/source/tts/indictts/kn/vocoder.onnx",
+      "bytes": 55743664,
+      "sha256": "a031a0478b673b7d4ea31764949904c8f5bbd6e8e60f35e4f7075cbb1ef7f7f5",
+      "source": "https://github.com/AI4Bharat/Indic-TTS/releases/download/v1-checkpoints-release/kn.zip#kn/hifigan/best_model.pth",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "float32_export_verified_against_torch_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.ml.acoustic",
+      "path": "models/source/tts/indictts/ml/acoustic.onnx",
+      "bytes": 63179297,
+      "sha256": "ea1baa0447f49d433262de0289ce2d42a1512ee1233dea6e7d044e75bad1a7ed",
+      "source": "https://huggingface.co/RaunakSaha/echobharat-models/resolve/2ad314c3ecafeb252bac82785ac541325596ac9c/ml/fastpitch-ml.int8.onnx",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "pinned_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.ml.tokens",
+      "path": "models/source/tts/indictts/ml/tokens.json",
+      "bytes": 591,
+      "sha256": "399dcb44b36a498870070219ce6eda430846bb19028f73cb82f4a5c05c94a03a",
+      "source": "https://huggingface.co/RaunakSaha/echobharat-models/resolve/2ad314c3ecafeb252bac82785ac541325596ac9c/ml/fastpitch-ml.tokens.json",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "pinned_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.ml.vocoder",
+      "path": "models/source/tts/indictts/ml/vocoder.onnx",
+      "bytes": 55743664,
+      "sha256": "92eff8411dcc140cf792d72b71c508c9c678304078a28ce758c26651ba426622",
+      "source": "https://github.com/AI4Bharat/Indic-TTS/releases/download/v1-checkpoints-release/ml.zip#ml/hifigan/best_model.pth",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "float32_export_verified_against_torch_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.mr.acoustic",
+      "path": "models/source/tts/indictts/mr/acoustic.onnx",
+      "bytes": 63199779,
+      "sha256": "674c393740a4ef281ac204d8fbc5a93cebfbad2e7e83ba395febfceee3c0828e",
+      "source": "https://huggingface.co/RaunakSaha/echobharat-models/resolve/2ad314c3ecafeb252bac82785ac541325596ac9c/mr/fastpitch-mr.int8.onnx",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "pinned_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.mr.tokens",
+      "path": "models/source/tts/indictts/mr/tokens.json",
+      "bytes": 842,
+      "sha256": "5767c4ff4b9f2f9b9d555a17af4ef08ec06a6698d0bf01d52818238064946be8",
+      "source": "https://huggingface.co/RaunakSaha/echobharat-models/resolve/2ad314c3ecafeb252bac82785ac541325596ac9c/mr/fastpitch-mr.tokens.json",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "pinned_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.mr.vocoder",
+      "path": "models/source/tts/indictts/mr/vocoder.onnx",
+      "bytes": 55743664,
+      "sha256": "ce11dff470c0014cf88f0576e8da4487f5c571bbd497f6b9a549bbc08401e2d5",
+      "source": "https://github.com/AI4Bharat/Indic-TTS/releases/download/v1-checkpoints-release/mr.zip#mr/hifigan/best_model.pth",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "float32_export_verified_against_torch_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.or.decoder",
+      "path": "models/source/tts/indictts/or/decoder.onnx",
+      "bytes": 101072506,
+      "sha256": "d64e25f9127ec22f52487054fc98d644bb5f2b8394181c36b3c715f4cc5481be",
+      "source": "https://github.com/AI4Bharat/Indic-TTS/releases/download/v1-checkpoints-release/or.zip#or/fastpitch/best_model.pth",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "split_export_verified_against_torch_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.or.encoder",
+      "path": "models/source/tts/indictts/or/encoder.onnx",
+      "bytes": 26771737,
+      "sha256": "4c4776f4aed4f48ce7570f8f84b84badc5e1bc6c9b11bda54ed955c2ea012e93",
+      "source": "https://github.com/AI4Bharat/Indic-TTS/releases/download/v1-checkpoints-release/or.zip#or/fastpitch/best_model.pth",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "split_export_verified_against_torch_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.or.tokens",
+      "path": "models/source/tts/indictts/or/tokens.json",
+      "bytes": 592,
+      "sha256": "155cf506a066b74e4c8fbf6e1c8c9d2153e827580e4df50ba52228d8cef7c765",
+      "source": "https://github.com/AI4Bharat/Indic-TTS/releases/download/v1-checkpoints-release/or.zip#or/fastpitch/best_model.pth",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "split_export_verified_against_torch_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.or.vocoder",
+      "path": "models/source/tts/indictts/or/vocoder.onnx",
+      "bytes": 55743664,
+      "sha256": "c0ea5250701cfb9e55c57a73fb38fa2d2181a9d9802ec6ae4191a955d27caf67",
+      "source": "https://github.com/AI4Bharat/Indic-TTS/releases/download/v1-checkpoints-release/or.zip#or/hifigan/best_model.pth",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "float32_export_verified_against_torch_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.ta.acoustic",
+      "path": "models/source/tts/indictts/ta/acoustic.onnx",
+      "bytes": 63168544,
+      "sha256": "1e88c1838486b3974f754767cb7065719961c59fb9616c30b7484f90919133ec",
+      "source": "https://huggingface.co/RaunakSaha/echobharat-models/resolve/2ad314c3ecafeb252bac82785ac541325596ac9c/ta/fastpitch-ta.int8.onnx",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "pinned_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.ta.tokens",
+      "path": "models/source/tts/indictts/ta/tokens.json",
+      "bytes": 442,
+      "sha256": "aba0d6f7807becb5acc17b681ce44f99673a9ef554aad798d1b73fd2d518b2f2",
+      "source": "https://huggingface.co/RaunakSaha/echobharat-models/resolve/2ad314c3ecafeb252bac82785ac541325596ac9c/ta/fastpitch-ta.tokens.json",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "pinned_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.ta.vocoder",
+      "path": "models/source/tts/indictts/ta/vocoder.onnx",
+      "bytes": 55743664,
+      "sha256": "6fa03ae0e403f8b06a934d6a2825c9114366ffa8bd110bad77e378cefbb5713d",
+      "source": "https://github.com/AI4Bharat/Indic-TTS/releases/download/v1-checkpoints-release/ta.zip#ta/hifigan/best_model.pth",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "float32_export_verified_against_torch_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.te.acoustic",
+      "path": "models/source/tts/indictts/te/acoustic.onnx",
+      "bytes": 63179809,
+      "sha256": "995312b833bbf17bc8c1a4281f9a0e141706d77f782a812109ec992bef8e6869",
+      "source": "https://huggingface.co/RaunakSaha/echobharat-models/resolve/2ad314c3ecafeb252bac82785ac541325596ac9c/te/fastpitch-te.int8.onnx",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "pinned_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.te.tokens",
+      "path": "models/source/tts/indictts/te/tokens.json",
+      "bytes": 586,
+      "sha256": "f14587cf5a525a83822de7b56d1d18836e3e1764bc650d94b6558d14d3771726",
+      "source": "https://huggingface.co/RaunakSaha/echobharat-models/resolve/2ad314c3ecafeb252bac82785ac541325596ac9c/te/fastpitch-te.tokens.json",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "pinned_quality_not_evaluated"
+    },
+    {
+      "id": "tts.indictts.te.vocoder",
+      "path": "models/source/tts/indictts/te/vocoder.onnx",
+      "bytes": 55743664,
+      "sha256": "92eff8411dcc140cf792d72b71c508c9c678304078a28ce758c26651ba426622",
+      "source": "https://github.com/AI4Bharat/Indic-TTS/releases/download/v1-checkpoints-release/te.zip#te/hifigan/best_model.pth",
+      "license": "MIT (AI4Bharat Indic-TTS); int8 conversion MIT (EchoBharat)",
+      "status": "float32_export_verified_against_torch_quality_not_evaluated"
+    },
+    {
+      "id": "vad.silero.int8",
+      "path": "models/source/vad/silero_vad.int8.onnx",
+      "bytes": 212860,
+      "sha256": "c36d490aff5ab924ca6c7aeec4d8f6bd3d22db6fa17611b9c5b17eae58ac3a20",
+      "source": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/silero_vad.int8.onnx",
+      "status": "bundled_ptt_hands_free_device_validation_pending",
+      "license": "MIT",
+      "licenseFile": "licenses/silero-vad-MIT.txt",
+      "apkAsset": "vad/silero_vad.int8.onnx"
+    }
+  ],
+  "sourceTrees": [
+    {
+      "id": "tts.espeak_ng",
+      "path": "third_party/espeak-ng",
+      "declaredVersion": "1.53.0",
+      "source": "https://github.com/espeak-ng/espeak-ng",
+      "revision": "unknown_downloaded_master_snapshot",
+      "vendoredSourceGitTree": "5659b0bf16b8371ceed4941b0b10d5ee6c315c5c",
+      "status": "host_data_and_android_arm64_build_passed_device_unvalidated",
+      "buildValidation": {
+        "date": "2026-09-12",
+        "hostCompiler": "MinGW UCRT GCC 13.2.0",
+        "androidNdk": "27.1.12297006",
+        "abi": "arm64-v8a",
+        "deviceListeningTested": false
+      }
+    }
+  ]
+}

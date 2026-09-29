@@ -1,0 +1,543 @@
+{
+  "generated": "2026-09-24T05:44:24Z",
+  "onnxruntime": "1.24.3",
+  "modelSource": "RaunakSaha/echobharat-models",
+  "modelRevision": "2ad314c3ecafeb252bac82785ac541325596ac9c",
+  "sampleRate": 22050,
+  "wavDirectory": ".tools/tts-host-smoke",
+  "teleguSharesMalayalamVocoder": true,
+  "runs": [
+    {
+      "lang": "hi",
+      "tokenTable": 101,
+      "sentence": 0,
+      "variant": "plain",
+      "chars": 18,
+      "tokens": 17,
+      "unmapped": [
+        "।"
+      ],
+      "audioSeconds": 1.173,
+      "peakAmplitude": 0.5489,
+      "rtf": 4.57,
+      "wav": "hi-0-plain.wav",
+      "melShape": [
+        1,
+        80,
+        101
+      ],
+      "acousticMs": 326.1,
+      "vocoderMs": 5033.2
+    },
+    {
+      "lang": "hi",
+      "tokenTable": 101,
+      "sentence": 0,
+      "variant": "blank",
+      "chars": 18,
+      "tokens": 33,
+      "unmapped": [
+        "।"
+      ],
+      "audioSeconds": 2.125,
+      "peakAmplitude": 0.4741,
+      "rtf": 4.53,
+      "wav": "hi-0-blank.wav",
+      "melShape": [
+        1,
+        80,
+        183
+      ],
+      "acousticMs": 580.4,
+      "vocoderMs": 9045.0
+    },
+    {
+      "lang": "hi",
+      "tokenTable": 101,
+      "sentence": 1,
+      "variant": "plain",
+      "chars": 55,
+      "tokens": 54,
+      "unmapped": [
+        "।"
+      ],
+      "audioSeconds": 4.203,
+      "peakAmplitude": 0.6203,
+      "rtf": 4.42,
+      "wav": "hi-1-plain.wav",
+      "melShape": [
+        1,
+        80,
+        362
+      ],
+      "acousticMs": 1049.2,
+      "vocoderMs": 17526.9
+    },
+    {
+      "lang": "hi",
+      "tokenTable": 101,
+      "sentence": 1,
+      "variant": "blank",
+      "chars": 55,
+      "tokens": 107,
+      "unmapped": [
+        "।"
+      ],
+      "audioSeconds": 7.43,
+      "peakAmplitude": 0.6206,
+      "rtf": 4.423,
+      "wav": "hi-1-blank.wav",
+      "melShape": [
+        1,
+        80,
+        640
+      ],
+      "acousticMs": 1899.9,
+      "vocoderMs": 30962.6
+    },
+    {
+      "lang": "hi",
+      "tokenTable": 101,
+      "sentence": 2,
+      "variant": "plain",
+      "chars": 81,
+      "tokens": 80,
+      "unmapped": [
+        "।"
+      ],
+      "audioSeconds": 5.654,
+      "peakAmplitude": 0.6311,
+      "rtf": 4.759,
+      "wav": "hi-2-plain.wav",
+      "melShape": [
+        1,
+        80,
+        487
+      ],
+      "acousticMs": 1436.4,
+      "vocoderMs": 25472.2
+    },
+    {
+      "lang": "hi",
+      "tokenTable": 101,
+      "sentence": 2,
+      "variant": "blank",
+      "chars": 81,
+      "tokens": 159,
+      "unmapped": [
+        "।"
+      ],
+      "audioSeconds": 8.998,
+      "peakAmplitude": 0.6631,
+      "rtf": 4.594,
+      "wav": "hi-2-blank.wav",
+      "melShape": [
+        1,
+        80,
+        775
+      ],
+      "acousticMs": 2745.9,
+      "vocoderMs": 38588.8
+    },
+    {
+      "lang": "en",
+      "tokenTable": 92,
+      "sentence": 0,
+      "variant": "plain",
+      "chars": 25,
+      "tokens": 25,
+      "unmapped": [],
+      "audioSeconds": 1.37,
+      "peakAmplitude": 0.4877,
+      "rtf": 4.437,
+      "wav": "en-0-plain.wav",
+      "melShape": [
+        1,
+        80,
+        118
+      ],
+      "acousticMs": 390.5,
+      "vocoderMs": 5687.5
+    },
+    {
+      "lang": "en",
+      "tokenTable": 92,
+      "sentence": 0,
+      "variant": "blank",
+      "chars": 25,
+      "tokens": 49,
+      "unmapped": [],
+      "audioSeconds": 2.879,
+      "peakAmplitude": 0.4153,
+      "rtf": 4.427,
+      "wav": "en-0-blank.wav",
+      "melShape": [
+        1,
+        80,
+        248
+      ],
+      "acousticMs": 766.9,
+      "vocoderMs": 11978.6
+    },
+    {
+      "lang": "en",
+      "tokenTable": 92,
+      "sentence": 1,
+      "variant": "plain",
+      "chars": 62,
+      "tokens": 62,
+      "unmapped": [],
+      "audioSeconds": 3.657,
+      "peakAmplitude": 0.3469,
+      "rtf": 4.447,
+      "wav": "en-1-plain.wav",
+      "melShape": [
+        1,
+        80,
+        315
+      ],
+      "acousticMs": 949.7,
+      "vocoderMs": 15312.7
+    },
+    {
+      "lang": "en",
+      "tokenTable": 92,
+      "sentence": 1,
+      "variant": "blank",
+      "chars": 62,
+      "tokens": 123,
+      "unmapped": [],
+      "audioSeconds": 7.047,
+      "peakAmplitude": 0.5247,
+      "rtf": 4.516,
+      "wav": "en-1-blank.wav",
+      "melShape": [
+        1,
+        80,
+        607
+      ],
+      "acousticMs": 1865.4,
+      "vocoderMs": 29959.9
+    },
+    {
+      "lang": "en",
+      "tokenTable": 92,
+      "sentence": 2,
+      "variant": "plain",
+      "chars": 101,
+      "tokens": 101,
+      "unmapped": [],
+      "audioSeconds": 5.968,
+      "peakAmplitude": 0.5289,
+      "rtf": 4.519,
+      "wav": "en-2-plain.wav",
+      "melShape": [
+        1,
+        80,
+        514
+      ],
+      "acousticMs": 1628.4,
+      "vocoderMs": 25340.2
+    },
+    {
+      "lang": "en",
+      "tokenTable": 92,
+      "sentence": 2,
+      "variant": "blank",
+      "chars": 101,
+      "tokens": 201,
+      "unmapped": [],
+      "audioSeconds": 12.481,
+      "peakAmplitude": 0.465,
+      "rtf": 4.444,
+      "wav": "en-2-blank.wav",
+      "melShape": [
+        1,
+        80,
+        1075
+      ],
+      "acousticMs": 3344.9,
+      "vocoderMs": 52114.2
+    },
+    {
+      "lang": "te",
+      "tokenTable": 89,
+      "sentence": 0,
+      "variant": "plain",
+      "chars": 28,
+      "tokens": 28,
+      "unmapped": [],
+      "audioSeconds": 2.113,
+      "peakAmplitude": 0.4196,
+      "rtf": 4.412,
+      "wav": "te-0-plain.wav",
+      "melShape": [
+        1,
+        80,
+        182
+      ],
+      "acousticMs": 530.6,
+      "vocoderMs": 8792.7
+    },
+    {
+      "lang": "te",
+      "tokenTable": 89,
+      "sentence": 0,
+      "variant": "blank",
+      "chars": 28,
+      "tokens": 55,
+      "unmapped": [],
+      "audioSeconds": 5.004,
+      "peakAmplitude": 0.4067,
+      "rtf": 4.392,
+      "wav": "te-0-blank.wav",
+      "melShape": [
+        1,
+        80,
+        431
+      ],
+      "acousticMs": 1222.2,
+      "vocoderMs": 20754.9
+    },
+    {
+      "lang": "ta",
+      "tokenTable": 67,
+      "sentence": 0,
+      "variant": "plain",
+      "chars": 29,
+      "tokens": 29,
+      "unmapped": [],
+      "audioSeconds": 2.206,
+      "peakAmplitude": 0.1707,
+      "rtf": 4.398,
+      "wav": "ta-0-plain.wav",
+      "melShape": [
+        1,
+        80,
+        190
+      ],
+      "acousticMs": 571.4,
+      "vocoderMs": 9130.2
+    },
+    {
+      "lang": "ta",
+      "tokenTable": 67,
+      "sentence": 0,
+      "variant": "blank",
+      "chars": 29,
+      "tokens": 57,
+      "unmapped": [],
+      "audioSeconds": 4.145,
+      "peakAmplitude": 0.1586,
+      "rtf": 4.375,
+      "wav": "ta-0-blank.wav",
+      "melShape": [
+        1,
+        80,
+        357
+      ],
+      "acousticMs": 1037.0,
+      "vocoderMs": 17098.3
+    },
+    {
+      "lang": "bn",
+      "tokenTable": 99,
+      "sentence": 0,
+      "variant": "plain",
+      "chars": 21,
+      "tokens": 21,
+      "unmapped": [],
+      "audioSeconds": 1.916,
+      "peakAmplitude": 0.2031,
+      "rtf": 4.401,
+      "wav": "bn-0-plain.wav",
+      "melShape": [
+        1,
+        80,
+        165
+      ],
+      "acousticMs": 476.3,
+      "vocoderMs": 7953.8
+    },
+    {
+      "lang": "bn",
+      "tokenTable": 99,
+      "sentence": 0,
+      "variant": "blank",
+      "chars": 21,
+      "tokens": 41,
+      "unmapped": [],
+      "audioSeconds": 3.007,
+      "peakAmplitude": 0.3518,
+      "rtf": 4.397,
+      "wav": "bn-0-blank.wav",
+      "melShape": [
+        1,
+        80,
+        259
+      ],
+      "acousticMs": 768.4,
+      "vocoderMs": 12454.1
+    },
+    {
+      "lang": "gu",
+      "tokenTable": 102,
+      "sentence": 0,
+      "variant": "plain",
+      "chars": 19,
+      "tokens": 19,
+      "unmapped": [],
+      "audioSeconds": 2.357,
+      "peakAmplitude": 0.5509,
+      "rtf": 4.394,
+      "wav": "gu-0-plain.wav",
+      "melShape": [
+        1,
+        80,
+        203
+      ],
+      "acousticMs": 574.0,
+      "vocoderMs": 9781.1
+    },
+    {
+      "lang": "gu",
+      "tokenTable": 102,
+      "sentence": 0,
+      "variant": "blank",
+      "chars": 19,
+      "tokens": 37,
+      "unmapped": [],
+      "audioSeconds": 4.249,
+      "peakAmplitude": 0.3654,
+      "rtf": 4.409,
+      "wav": "gu-0-blank.wav",
+      "melShape": [
+        1,
+        80,
+        366
+      ],
+      "acousticMs": 1009.7,
+      "vocoderMs": 17726.6
+    },
+    {
+      "lang": "kn",
+      "tokenTable": 104,
+      "sentence": 0,
+      "variant": "plain",
+      "chars": 24,
+      "tokens": 24,
+      "unmapped": [],
+      "audioSeconds": 2.264,
+      "peakAmplitude": 0.6868,
+      "rtf": 4.418,
+      "wav": "kn-0-plain.wav",
+      "melShape": [
+        1,
+        80,
+        195
+      ],
+      "acousticMs": 559.2,
+      "vocoderMs": 9442.3
+    },
+    {
+      "lang": "kn",
+      "tokenTable": 104,
+      "sentence": 0,
+      "variant": "blank",
+      "chars": 24,
+      "tokens": 47,
+      "unmapped": [],
+      "audioSeconds": 5.027,
+      "peakAmplitude": 0.6789,
+      "rtf": 4.445,
+      "wav": "kn-0-blank.wav",
+      "melShape": [
+        1,
+        80,
+        433
+      ],
+      "acousticMs": 1228.2,
+      "vocoderMs": 21118.0
+    },
+    {
+      "lang": "ml",
+      "tokenTable": 88,
+      "sentence": 0,
+      "variant": "plain",
+      "chars": 29,
+      "tokens": 29,
+      "unmapped": [],
+      "audioSeconds": 1.66,
+      "peakAmplitude": 0.7257,
+      "rtf": 4.536,
+      "wav": "ml-0-plain.wav",
+      "melShape": [
+        1,
+        80,
+        143
+      ],
+      "acousticMs": 466.2,
+      "vocoderMs": 7065.4
+    },
+    {
+      "lang": "ml",
+      "tokenTable": 88,
+      "sentence": 0,
+      "variant": "blank",
+      "chars": 29,
+      "tokens": 57,
+      "unmapped": [],
+      "audioSeconds": 4.249,
+      "peakAmplitude": 0.7693,
+      "rtf": 4.444,
+      "wav": "ml-0-blank.wav",
+      "melShape": [
+        1,
+        80,
+        366
+      ],
+      "acousticMs": 1089.5,
+      "vocoderMs": 17795.7
+    },
+    {
+      "lang": "mr",
+      "tokenTable": 128,
+      "sentence": 0,
+      "variant": "plain",
+      "chars": 20,
+      "tokens": 20,
+      "unmapped": [],
+      "audioSeconds": 1.939,
+      "peakAmplitude": 0.5089,
+      "rtf": 4.373,
+      "wav": "mr-0-plain.wav",
+      "melShape": [
+        1,
+        80,
+        167
+      ],
+      "acousticMs": 470.2,
+      "vocoderMs": 8009.0
+    },
+    {
+      "lang": "mr",
+      "tokenTable": 128,
+      "sentence": 0,
+      "variant": "blank",
+      "chars": 20,
+      "tokens": 39,
+      "unmapped": [],
+      "audioSeconds": 4.226,
+      "peakAmplitude": 0.5045,
+      "rtf": 4.405,
+      "wav": "mr-0-blank.wav",
+      "melShape": [
+        1,
+        80,
+        364
+      ],
+      "acousticMs": 997.8,
+      "vocoderMs": 17618.6
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "kind": "fixed_fixture_smoke_not_accuracy_or_benchmark",
+  "loadOrder": "sherpa-first",
+  "loadMs": 583.67401,
+  "asrInferenceMs": 9370.08614,
+  "audioSeconds": 6.625,
+  "pssAfterDecodeKbNotPeak": 515777,
+  "fixturePhrasePassed": true,
+  "hindiAndVadAfterMoonshinePassed": true,
+  "productionPointersUnchanged": true
+}

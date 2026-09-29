@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "language": "gu",
+  "reviewStatus": "native_speaker_review_pending",
+  "templates": [
+    {
+      "title": "તબીબી મદદ / Medical",
+      "text": "તબીબી સહાયની જરૂર છે. કૃપા કરીને મદદ મોકલો."
+    },
+    {
+      "title": "આગ / Fire",
+      "text": "નજીકમાં આગ લાગી છે. સલામત સ્થળે જાઓ."
+    },
+    {
+      "title": "ફસાયેલ / Trapped",
+      "text": "હું ફસાઈ ગયો છું. કૃપા કરીને મદદ મોકલો."
+    },
+    {
+      "title": "સ્થળાંતર / Evacuation",
+      "text": "સલામત સ્થળે જવા માટે મદદની જરૂર છે."
+    },
+    {
+      "title": "તાત્કાલિક જોખમ / Danger",
+      "text": "તાત્કાલિક જોખમ છે. કૃપા કરીને મદદ મોકલો."
+    }
+  ]
+}

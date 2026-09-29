@@ -1,0 +1,54 @@
+﻿{
+    "measuredAtUtc":  "2026-09-13T06:06:47.1542657Z",
+    "kind":  "host_build_validation",
+    "apks":  [
+                 {
+                     "variant":  "base",
+                     "path":  "app/build/outputs/apk/base/debug/app-base-debug.apk",
+                     "bytes":  47423078,
+                     "sha256":  "4d37dd8fb91b6e0ae09f057fc56b2ffbee9360cc2bc2a50b0b54d229ad6db012",
+                     "bundledModels":  [
+
+                                       ],
+                     "nativeLibraries":  [
+                                             "lib/arm64-v8a/libandroidx.graphics.path.so",
+                                             "lib/arm64-v8a/libdatastore_shared_counter.so",
+                                             "lib/arm64-v8a/libitantra_espeak.so",
+                                             "lib/arm64-v8a/libonnxruntime.so",
+                                             "lib/arm64-v8a/libsherpa-onnx-c-api.so",
+                                             "lib/arm64-v8a/libsherpa-onnx-cxx-api.so",
+                                             "lib/arm64-v8a/libsherpa-onnx-jni.so"
+                                         ]
+                 },
+                 {
+                     "variant":  "demoPreloaded",
+                     "path":  "app/build/outputs/apk/demoPreloaded/debug/app-demoPreloaded-debug.apk",
+                     "bytes":  376819634,
+                     "sha256":  "69d54a888e0ca5089528d596e49c45c259b5056f831050983906ba1ae773beab",
+                     "bundledModels":  [
+                                           "assets/starter-packs/en.itpack",
+                                           "assets/starter-packs/hi.itpack"
+                                       ],
+                     "nativeLibraries":  [
+                                             "lib/arm64-v8a/libandroidx.graphics.path.so",
+                                             "lib/arm64-v8a/libdatastore_shared_counter.so",
+                                             "lib/arm64-v8a/libitantra_espeak.so",
+                                             "lib/arm64-v8a/libonnxruntime.so",
+                                             "lib/arm64-v8a/libsherpa-onnx-c-api.so",
+                                             "lib/arm64-v8a/libsherpa-onnx-cxx-api.so",
+                                             "lib/arm64-v8a/libsherpa-onnx-jni.so"
+                                         ]
+                 }
+             ],
+    "unitTests":  {
+                      "skipped":  0,
+                      "errors":  0,
+                      "tests":  55,
+                      "failures":  0
+                  },
+    "lintErrors":  0,
+    "lintWarnings":  19,
+    "instrumentation":  "compiled; run separately and consult android-local-groups-tests.txt for the latest LAN/legacy/native-TTS suite",
+    "physicalTwoPhoneRadio":  "legacy_EN_HI_user_reported_pass; new_LAN_groups_multi_phone_acceptance_pending",
+    "speechAccuracy":  "no_corpus_WER_or_listening_score_claimed"
+}

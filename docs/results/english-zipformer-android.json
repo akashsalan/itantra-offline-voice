@@ -1,0 +1,28 @@
+{
+  "kind": "android_fixed_fixture_not_microphone_accuracy",
+  "device": "RMX1801",
+  "sdk": 29,
+  "pack_id": "asr.zipformer.en.2023-06-21.int8",
+  "model_bytes": 190180941,
+  "fixture_sha256": "6bc58a4efdf20daac252b6b1502632601a71efe0308f6757dc1eda34891a7e4f",
+  "model_load_ms": 2673.32052,
+  "digital_silence_blank": true,
+  "rows": [
+    {
+      "iteration": 0,
+      "text": "AFTER EARLY NIGHTFALL THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BROTHELS",
+      "audio_seconds": 6.625,
+      "inference_ms": 2218.166351,
+      "rtf": 0.3348175624150943,
+      "pss_after_decode_kb": 297932
+    },
+    {
+      "iteration": 1,
+      "text": "AFTER EARLY NIGHTFALL THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BROTHELS",
+      "audio_seconds": 6.625,
+      "inference_ms": 2216.426196,
+      "rtf": 0.33455489750943396,
+      "pss_after_decode_kb": 297932
+    }
+  ]
+}

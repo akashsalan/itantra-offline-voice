@@ -1,0 +1,20 @@
+﻿{
+    "measuredAtUtc":  "2026-09-13T06:07:52.3017939Z",
+    "activeEnglish":  "asr.parakeet.en.110m.ctc.int8/0facc9d4f29e4259aa358cdf2d73f627",
+    "selectedEnglishFilesPreviouslyMatchedLock":  true,
+    "removedInstalledDirectories":  [
+                                        "/data/data/org.itantra.app/no_backup/models/asr.zipformer.en.20m",
+                                        "/data/data/org.itantra.app/no_backup/models/asr.zipformer.en.2023-06-21.int8"
+                                    ],
+    "englishHindiOdiaPointersUnchanged":  true,
+    "recoveryDirectory":  "D:\\SIH\\models\\archives\\english-retired-2026-09-13",
+    "remainingModelEntries":  [
+                                  "active-en",
+                                  "active-hi",
+                                  "active-or",
+                                  "asr.indicconformer.hi.int8",
+                                  "asr.indicconformer.or.ctc.experimental.v1",
+                                  "asr.parakeet.en.110m.ctc.int8",
+                                  "installed-asr.parakeet.en.110m.ctc.int8"
+                              ]
+}

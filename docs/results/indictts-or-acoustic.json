@@ -1,0 +1,32 @@
+{
+  "generated": "2026-09-24T11:57:10Z",
+  "language": "or",
+  "precision": "encoder int8, decoder float32, vocoder float32",
+  "tokens": 43,
+  "frames": 315,
+  "audioSeconds": 3.657,
+  "encoderMs": 169.6,
+  "decoderMs": 115.8,
+  "vocoderMs": 1135.4,
+  "rtf": 0.389,
+  "peak": 0.6442,
+  "payloadMiB": 175.08,
+  "files": {
+    "encoder.onnx": {
+      "bytes": 26771737,
+      "sha256": "4c4776f4aed4f48ce7570f8f84b84badc5e1bc6c9b11bda54ed955c2ea012e93"
+    },
+    "decoder.onnx": {
+      "bytes": 101072506,
+      "sha256": "d64e25f9127ec22f52487054fc98d644bb5f2b8394181c36b3c715f4cc5481be"
+    },
+    "vocoder.onnx": {
+      "bytes": 55743664,
+      "sha256": "c0ea5250701cfb9e55c57a73fb38fa2d2181a9d9802ec6ae4191a955d27caf67"
+    },
+    "tokens.json": {
+      "bytes": 592,
+      "sha256": "155cf506a066b74e4c8fbf6e1c8c9d2153e827580e4df50ba52228d8cef7c765"
+    }
+  }
+}

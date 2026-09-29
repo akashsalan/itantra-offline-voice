@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "language": "en",
+  "reviewStatus": "authored_not_field_validated",
+  "templates": [
+    {
+      "title": "Medical assistance",
+      "text": "Medical assistance needed. Please send help."
+    },
+    {
+      "title": "Fire",
+      "text": "Fire nearby. Move to safety."
+    },
+    {
+      "title": "Trapped",
+      "text": "I am trapped. Please send help."
+    },
+    {
+      "title": "Evacuation",
+      "text": "Evacuation assistance needed."
+    },
+    {
+      "title": "Immediate danger",
+      "text": "Immediate danger. Please send help."
+    }
+  ]
+}

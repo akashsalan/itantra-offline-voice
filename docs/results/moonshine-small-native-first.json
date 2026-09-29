@@ -1,0 +1,11 @@
+{
+  "kind": "fixed_fixture_smoke_not_accuracy_or_benchmark",
+  "loadOrder": "moonshine-first",
+  "loadMs": 556.702188,
+  "asrInferenceMs": 9492.808909,
+  "audioSeconds": 6.625,
+  "pssAfterDecodeKbNotPeak": 512259,
+  "fixturePhrasePassed": true,
+  "hindiAndVadAfterMoonshinePassed": true,
+  "productionPointersUnchanged": true
+}

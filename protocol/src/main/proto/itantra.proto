@@ -1,0 +1,50 @@
+syntax = "proto3";
+package org.itantra.protocol.v1;
+option java_multiple_files = true;
+option java_package = "org.itantra.protocol.v1";
+enum MessageType {
+  TYPE_UNSPECIFIED = 0;
+  HELLO = 1; CAPABILITIES = 2; TEXT_PARTIAL = 3; TEXT_FINAL = 4;
+  ALERT = 5; ACK_DELIVERED = 6; ACK_PLAYED = 7; ACKNOWLEDGED = 8;
+  PING = 9; ERROR = 10;
+}
+enum LanguageCode {
+  LANGUAGE_UNSPECIFIED = 0;
+  BN = 1; EN = 2; GU = 3; HI = 4; KN = 5;
+  ML = 6; MR = 7; OR = 8; TA = 9; TE = 10;
+}
+message Envelope {
+  uint32 protocol_major = 1;
+  uint32 protocol_minor = 2;
+  fixed64 session_id = 3;
+  fixed64 message_id = 4;
+  uint32 sequence = 5;
+  MessageType type = 6;
+  LanguageCode language = 7;
+  string text = 8;
+  uint64 sent_elapsed_ms = 9;
+  bytes body = 10;
+  uint32 crc32 = 11;
+}
+message HelloBody {
+  string device_id = 1;
+  string device_name = 2;
+  bytes nonce = 3;
+  string app_version = 4;
+}
+message CapabilitiesBody {
+  repeated LanguageCode asr_languages = 1;
+  repeated LanguageCode tts_languages = 2;
+  repeated string transports = 3;
+  uint32 max_packet_bytes = 4;
+  bool pairing_confirmed = 5;
+  string confirmation_code = 6;
+  bool supports_text_chat = 7;
+}
+message TextOptionsBody {
+  bool silent_chat = 1;
+}
+message AckBody {
+  uint64 receipt_to_playback_submission_ms = 1;
+  uint64 playback_duration_ms = 2;
+}

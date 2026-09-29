@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "language": "hi",
+  "reviewStatus": "native_speaker_review_pending",
+  "templates": [
+    {
+      "title": "चिकित्सा सहायता / Medical",
+      "text": "चिकित्सा सहायता चाहिए। कृपया मदद भेजें।"
+    },
+    {
+      "title": "आग / Fire",
+      "text": "आसपास आग लगी है। सुरक्षित स्थान पर जाएँ।"
+    },
+    {
+      "title": "फँसा हुआ / Trapped",
+      "text": "मैं फँसा हुआ हूँ। कृपया मदद भेजें।"
+    },
+    {
+      "title": "निकासी / Evacuation",
+      "text": "सुरक्षित स्थान पर जाने में सहायता चाहिए।"
+    },
+    {
+      "title": "तत्काल खतरा / Danger",
+      "text": "तत्काल खतरा है। कृपया मदद भेजें।"
+    }
+  ]
+}

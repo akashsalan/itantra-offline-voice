@@ -1,0 +1,22 @@
+﻿{
+    "kind":  "host_zip_integrity_not_android_import_test",
+    "measuredAtUtc":  "2026-09-17T15:02:45.4221396Z",
+    "packs":  [
+                  {
+                      "name":  "en.itpack",
+                      "packId":  "asr.moonshine.en.small.streaming.2026-08-21.quantized",
+                      "bytes":  142339040,
+                      "sha256":  "ba1fbd4182baa05fdfeb90c8d0707114afaf533364684e236539368b53d7d8ac",
+                      "modelFiles":  9,
+                      "matchesLock":  true
+                  },
+                  {
+                      "name":  "hi.itpack",
+                      "packId":  "asr.indicconformer.hi.int8",
+                      "bytes":  197694194,
+                      "sha256":  "000fec352d780bc1765dad360ba985a0534cd6baf446b2c844ddb7d94947cb06",
+                      "modelFiles":  2,
+                      "matchesLock":  true
+                  }
+              ]
+}

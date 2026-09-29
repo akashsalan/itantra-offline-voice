@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "sessionId": "9198b74f-1fa4-42ea-a570-acdfcdac7493",
+  "context": {
+    "appVersion": "0.5.2-ptt",
+    "versionCode": 13,
+    "variant": "base",
+    "deviceModel": "RMX1801",
+    "androidVersion": "10",
+    "androidApi": 29
+  },
+  "footprint": {
+    "apkBytes": 48168384,
+    "activeAsrModelBytes": 131680781,
+    "vadModelBytes": 212860,
+    "currentPssBytes": 53773312,
+    "peakSampledPssBytes": 53773312
+  },
+  "sentPtt": [],
+  "receivedPtt": [],
+  "unsentCaptures": [
+    {
+      "eventId": 1,
+      "language": "en",
+      "asrModel": "Parakeet 110M CTC INT8",
+      "status": "DISCARDED",
+      "captureDurationMs": 3500,
+      "finishReason": "DISCARDED",
+      "trailingSilenceMs": 0,
+      "asrInferenceMs": null,
+      "captureEndToTranscriptMs": null,
+      "asrRtf": null,
+      "framedBytes": null,
+      "transport": null,
+      "bytesByTransport": {},
+      "expectedAcknowledgements": null,
+      "deliveredAcknowledgements": 0,
+      "playedAcknowledgements": 0,
+      "captureEndToPlayedAckMs": [],
+      "ttsFirstPcmMs": null,
+      "ttsSynthesisMs": null,
+      "ttsAudioDurationMs": null,
+      "ttsRtf": null,
+      "receiptToAudioTrackSubmissionMs": null,
+      "playbackDurationMs": null,
+      "playbackStatus": "PENDING",
+      "playbackAttempt": 0,
+      "ttsChunks": 0,
+      "technical": {
+        "asrPackId": "asr.parakeet.en.110m.ctc.int8",
+        "captureStartElapsedNs": 223332259813841,
+        "captureEndElapsedNs": 223335937846808,
+        "sampleCount": 56000,
+        "sampleRateHz": 16000,
+        "audioSource": "VOICE_RECOGNITION",
+        "neuralSpeechDetected": false
+      }
+    }
+  ],
+  "metricDefinitions": {
+    "session": "Latest 10 sent PTT events, 10 received voice messages and 10 unsent captures in this in-memory session. New session clears measurements only. Missing values are null.",
+    "captureDurationMs": "Captured PCM samples \/ 16 kHz, including initial and trailing silence. Capture end is a local monotonic timestamp, not necessarily finger release.",
+    "trailingSilenceMs": "Continuous neural non-speech after speech detection; reset by speech. 32 ms windows: the 2000 ms threshold finishes at the first full window at or above 2000 ms.",
+    "finishReason": "MANUAL_RELEASE, TRAILING_SILENCE, MAX_DURATION (15 seconds), or DISCARDED (cancelled, no neural speech, unusable\/failed transcription).",
+    "asrInferenceMs": "Recognizer inference wall time; excludes capture and model loading.",
+    "captureEndToTranscriptMs": "Local capture end to completed transcription, including scheduling and inference. Not release-to-transcript.",
+    "asrRtf": "ASR inference time \/ captured audio duration; below 1.0 is faster than real time.",
+    "framedBytes": "Sent: successful application-frame socket writes plus 4-byte prefixes, including retries and local group fan-out. Received: accepted message frame plus prefix. Excludes TLS, radio\/network overhead and other phones' traffic.",
+    "acknowledgements": "Unique intended recipients acknowledging all framed parts of this PTT. Played ACK is distinct from human acknowledgement. Counts remain pending across disconnects.",
+    "captureEndToPlayedAckMs": "Local capture end to each first played ACK per recipient and part; includes delivery, remote playback and returning acknowledgement. Never subtracts clocks from different phones.",
+    "ttsFirstPcmMs": "First synthesis request to first native PCM callback, including initialization and scheduling. All chunks share one record.",
+    "ttsSynthesisMs": "Sum of synthesis call wall times for all chunks and emergency repeats in the playback attempt, including initialization; excludes playback and gaps.",
+    "ttsRtf": "Total synthesis time \/ total generated PCM duration; below 1.0 is faster than real time.",
+    "receiptToAudioTrackSubmissionMs": "Local receipt to first successful AudioTrack write submission, including queue delay. AudioTrack submission is not exact audible sound onset.",
+    "playbackDurationMs": "Sum of submission-to-drain\/stop durations of chunks and emergency repeats; excludes gaps. Replay replaces playback measurements with its latest attempt.",
+    "footprint": "APK plus splits; active ASR pack model\/vocabulary files; bundled VAD file; current PSS and highest PSS sampled each second this session. Sampled peak is not an exact allocation peak.",
+    "processCpuTimeMs": "Process CPU time during capture\/transcription; may include other threads. CPU time is not CPU percentage.",
+    "scope": "Development measurements only. No WER, intelligibility, idle-listening CPU or benchmark averages. No transcripts, peers, network addresses, encryption data, firmware fingerprints or exception details in exports."
+  }
+}

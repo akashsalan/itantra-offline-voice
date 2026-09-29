@@ -1,0 +1,12 @@
+{
+  "kind": "fixed_fixture_smoke_not_accuracy_or_benchmark",
+  "packId": "asr.moonshine.en.tiny.streaming.2026-08-21.quantized",
+  "loadOrder": "sherpa-first",
+  "loadMs": 292.88776,
+  "asrInferenceMs": 6513.364693,
+  "audioSeconds": 6.625,
+  "pssAfterDecodeKbNotPeak": 277010,
+  "fixturePhrasePassed": true,
+  "hindiAndVadAfterMoonshinePassed": true,
+  "productionPointersUnchanged": true
+}
