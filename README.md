@@ -1,6 +1,7 @@
 # iTantra
 
-iTantra lets nearby Android phones exchange spoken messages offline in ten languages.
+iTantra is an open-source Android app for exchanging spoken messages between nearby
+phones. It works offline and supports ten languages.
 Hold to talk or use hands-free mode. Your phone transcribes what you say, sends the
 transcript over a local link, and the receiving phone reads it aloud in the
 original language. The audio stays on the sender’s phone, so the link only needs
