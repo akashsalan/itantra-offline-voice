@@ -40,10 +40,33 @@ Wi-Fi Direct and Bluetooth Classic connect two phones. On shared Wi-Fi or a
 hotspot, users can also host a local group. Receipts distinguish delivery,
 playback and acknowledgement.
 
-**Emergency SOS** also supports an experimental public BLE mode. Participating
-phones must enable **Receive & auto-forward**. An alert can then travel up to
-three radio hops. The sender has three seconds to cancel before transmission,
-and an incoming emergency alert can sound an alarm, vibrate and be read aloud.
+## How an SOS travels over BLE
+
+In **Emergency SOS → BLE Relay SOS**, each participating phone enables
+**Receive & auto-forward**. This experimental mode works without pairing, a
+router or internet access. The example below shows four phones where each can
+reach only its immediate neighbours.
+
+```mermaid
+flowchart TD
+    compose["Phone A: record, type or select a preset SOS"] --> send["Phone A: sign and queue the SOS text"]
+    send -->|BLE hop 1| b["Phone B: receive and auto-forward"]
+    b -->|BLE hop 2| c["Phone C: receive and auto-forward"]
+    c -->|BLE hop 3| d["Phone D: receive only"]
+```
+
+- **Sending.** For a recorded or confirmed typed SOS, the sender has three
+  seconds to cancel. The packet carries the text and its language over BLE GATT.
+- **At each receiver.** The app checks the signature and expiry, suppresses
+  duplicates, and stores an accepted alert for local playback. B and C can
+  forward it without waiting for anyone to play or acknowledge it. D reaches
+  the three-hop limit for this alert.
+- **Receipts.** A successful relay write shows **relayed**. A receiving phone
+  sends a separate **delivered** receipt. Playback and a person's acknowledgement
+  can generate **played** and **acknowledged** receipts.
+
+The three-hop limit is covered by simulated protocol tests. Physical range and
+background delivery still need testing on a four-phone chain.
 [Public BLE SOS guide](docs/PUBLIC_BLE_SOS.md)
 
 ## Try it on two phones
