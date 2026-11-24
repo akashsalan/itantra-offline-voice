@@ -1,37 +1,61 @@
 # iTantra
 
-Offline, multilingual voice communication for Android. You speak, your phone turns
-the speech into text, sends **only the text** to a nearby phone, and that phone
-speaks it aloud. No internet, no SIM and no cloud service is involved at any step.
+iTantra lets nearby Android phones exchange spoken messages offline in ten languages.
+Hold to talk or use hands-free mode. Your phone transcribes what you say, sends the
+transcript over a local link, and the receiving phone reads it aloud in the
+original language. The audio stays on the sender’s phone, so the link only needs
+to carry text and message metadata.
 
-Built for Smart India Hackathon problem statement 26173: Indian multilingual
-TTS and STT for low-bitrate links.
+Built for Smart India Hackathon problem statement 26173, *Indian multilingual
+TTS and STT for low-bitrate links*.
 
-Version `0.9.1-emergency-alert` (code 24) · Kotlin + Jetpack Compose · Android 8.0+
-(API 26) · arm64-v8a
+**Android 8.0+ (API 26) · arm64-v8a · Kotlin + Jetpack Compose**
 
-## What it does
+Version `0.9.1-emergency-alert` (code 24)
 
-- **10 languages:** Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi,
-  Odia, Tamil, Telugu.
-- **Two ways to talk:** push-to-talk (walkie-talkie) or hands-free (phone call).
-  Silero VAD detects when you stop speaking.
-- **Speech to text on the phone:** Moonshine for English, AI4Bharat IndicConformer
-  for the nine Indian languages. Install only the languages you need, and only one
-  recogniser is loaded at a time.
-- **Text to speech on the phone:** eSpeak NG (about 3 MB) speaks all 10 languages
-  with nothing extra installed. It is the default, the fallback, and the voice
-  used for emergency alerts. Optional AI4Bharat Indic-TTS neural voices
-  (FastPitch + HiFi-GAN) sound more natural.
-- **Only text travels:** text, language and priority in a small Protocol Buffers
-  message with a checksum, over Wi-Fi Direct, the same Wi-Fi, a phone hotspot, or
-  Bluetooth Classic. Group links use TLS.
-- **Emergency SOS:** 3 seconds to cancel before sending. The receiving phone sounds
-  an alarm and vibrates, then reads the message aloud. When nobody is connected, a
-  BLE relay passes the alert up to 3 phones away (experimental).
-- **Receipts:** delivered, played and acknowledged are shown separately.
-- **On-device benchmarks:** More → Diagnostics shows model size, RAM, CPU, speech
-  real-time factors and end-to-end delay, measured on the phone.
+## How a voice message travels
+
+```mermaid
+flowchart TD
+    subgraph sender["Sending phone"]
+        mic["Push-to-talk or hands-free microphone"] --> asr["On-device speech recognition"]
+        asr --> packet["Transcript + language + priority"]
+    end
+    packet --> peer["Wi-Fi Direct or Bluetooth Classic"]
+    packet --> lan["Shared Wi-Fi or hotspot"]
+    subgraph receiver["Receiving phone"]
+        inbox["Receive and verify message"] --> voice["Synthesize speech locally"]
+        voice --> play["Play aloud"]
+    end
+    peer --> inbox
+    lan --> inbox
+```
+
+Silero VAD detects pauses. Moonshine transcribes English, and IndicConformer
+handles the other nine languages. The app encodes the text and metadata in a
+checksummed Protocol Buffers message. On receipt, eSpeak NG can read any supported
+language immediately. An installed neural voice can provide playback instead.
+
+Wi-Fi Direct and Bluetooth Classic connect two phones. On shared Wi-Fi or a
+hotspot, users can also host a local group. Receipts distinguish delivery,
+playback and acknowledgement.
+
+**Emergency SOS** also supports an experimental public BLE mode. Participating
+phones must enable **Receive & auto-forward**. An alert can then travel up to
+three radio hops. The sender has three seconds to cancel before transmission,
+and an incoming emergency alert can sound an alarm, vibrate and be read aloud.
+[Public BLE SOS guide](docs/PUBLIC_BLE_SOS.md)
+
+## Try it on two phones
+
+1. Install the app on both phones. For an English or Hindi demo, the preloaded
+   build includes recognition and voice packs. With the base build, import a
+   recognition pack under **Models** on the phone you’ll speak into.
+2. Connect both phones to the same Wi-Fi or hotspot. Open **Connections** and
+   create a local group on one phone, then join it from the other.
+3. Select the installed recognition language and send a push-to-talk message
+   to the group. The other phone can read it aloud with its built-in voice,
+   even without a recognition pack. Check the receipt to see when it played.
 
 ## Languages
 
@@ -53,7 +77,7 @@ natural voices are optional packs, installed per language.
 
 - **Built-in voice:** eSpeak NG is inside every APK (about 3 MB for all ten
   languages). It is the default, the fallback when a natural voice is missing or
-  fails, and the voice used for emergency alerts.
+  fails. Emergency playback can reuse a matching neural voice already in memory.
 - **Natural voices:** AI4Bharat Indic-TTS (FastPitch + HiFi-GAN). Quality has not
   been rated by native speakers yet.
 - **Sizes** are installed model sizes in decimal MB, from `models/models.lock.json`.
@@ -63,7 +87,7 @@ natural voices are optional packs, installed per language.
 
 ## Measured on a phone
 
-Moto G34 5G, from the in-app Diagnostics screen:
+Results from **More → Diagnostics** on a Moto G34 5G:
 
 | Metric | Result |
 |---|---|
@@ -109,7 +133,7 @@ under **Models**. Each file is checked against the SHA-256 values in
 - [Neural voices](docs/NEURAL_TTS.md)
 - [Emergency SOS flow](docs/SOS_FLOW.md) · [Public BLE SOS](docs/PUBLIC_BLE_SOS.md)
 - [Local groups](docs/LOCAL_GROUPS.md)
-- [Design decisions](DECISIONS.md)
+- [Product requirements](ITANTRA_PRD.md)
 - [Test and device results](docs/results/README.md)
 - [Licences overview (PDF)](docs/legal/LEGAL.pdf)
 
