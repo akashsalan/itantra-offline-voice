@@ -162,11 +162,9 @@ under **Models**. Each file is checked against the SHA-256 values in
 
 ## Licence
 
-iTantra is licensed **GPL-3.0-or-later** ([LICENSE](LICENSE)), because it links
-eSpeak NG. Every bundled or importable component keeps its own licence; see
-[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and [licenses/](licenses/).
-The AI4Bharat Indic-TTS voices are MIT as declared by their publisher; the
-upstream repository ships no licence file, so verify before redistributing.
+iTantra is licensed under [GPL-3.0-or-later](LICENSE). For third-party models
+and libraries, see the [component notices](THIRD_PARTY_NOTICES.md) and
+[licence files](licenses/).
 
 No hosted speech-to-text or text-to-speech service is used. Delivery is not
 guaranteed, and iTantra is not a replacement for emergency services.
